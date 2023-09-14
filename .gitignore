@@ -2,4 +2,11 @@
 *.root
 *.png
 **/__pycache__/
-/reach_estimate_tenpct/**/logs/
+/analysis/reach_estimate_tenpct/**/logs/
+*.slcio
+*.evio
+/ana/
+/data/
+/mc/
+/seedtracker/
+/simp_reach_estimates/
