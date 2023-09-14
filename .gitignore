@@ -1,0 +1,5 @@
+*.pyc
+*.root
+*.png
+**/__pycache__/
+/reach_estimate_tenpct/**/logs/
