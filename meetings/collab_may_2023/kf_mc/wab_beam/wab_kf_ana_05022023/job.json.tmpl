@@ -1,0 +1,17 @@
+{
+    "input_files": {
+        "{{input_files['data'][0]}}": "data_events.root"
+    },
+    "run_params": "2pt3",
+    "detector": "HPS-PhysicsRun2016-Pass2",
+    "run_number": 7800,
+    "run_mode": 0,
+    "output_files": {
+        "data_events_ana.root": {% set splitname = input_files['data'][0].split("/") %} "{{splitname[14].split(".")[0]}}_ana.root"
+    },
+    "output_dir": "/sdf/group/hps/users/alspellm/run/mc/wab_beam/wab_kf_ana_05022023/",
+    "config_files":{
+        "ana": "/sdf/group/hps/users/alspellm/run/mc/wab_beam/wab_kf_ana_05022023/anaKalSimpTuple_cfg.py"
+    },
+    "year": 2016
+}
