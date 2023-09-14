@@ -1,0 +1,7 @@
+{
+    "unc_vtx_abs_delta_z0tanlambda_lt": {
+        "cut" : 35.0,
+        "id" : 1, 
+        "info": "abs(e^{-} z0/tan#lambda - e^{+} z0/tan#lambda) < "
+    }
+}
