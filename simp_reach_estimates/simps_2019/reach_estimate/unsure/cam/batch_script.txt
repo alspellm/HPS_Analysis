@@ -1,1 +1,0 @@
-python scripts/submit_jobs.py --outdir ~/work/ana/qual/mc/rad/ --indir /nfs/slac/g/hps_data2/users/bravo/mc/det16/run16/rad --step=hipster --fileExt root --nevents -1 --queue short --isData 0 --year=2016 --verbose --hpstrFolder ~/work/src/hpstrMaster/ --hpstrCfg ~/work/src/hpstrMaster/processors/config/anaVtxTuple_cfg.py --submit
