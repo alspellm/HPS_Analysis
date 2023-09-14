@@ -50,8 +50,8 @@ recoana_kf.parameters["vtxColl"] = "UnconstrainedV0Vertices_KF"
 recoana_kf.parameters["mcColl"] = "MCParticle"
 recoana_kf.parameters["hitColl"] = "SiClusters"
 recoana_kf.parameters["ecalColl"] = "RecoEcalClusters"
-recoana_kf.parameters["vtxSelectionjson"] = '/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/configs/vertexSelection_2016_simp_nocuts.json'
-recoana_kf.parameters["histoCfg"] = '/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/configs/vtxAnalysis_2016_simp_preselection.json'
+recoana_kf.parameters["vtxSelectionjson"] = '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/preselection_cutflow/configs/vertexSelection_2016_simp_nocuts.json'
+recoana_kf.parameters["histoCfg"] = '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/preselection_cutflow/configs/vtxAnalysis_2016_simp_preselection.json'
 recoana_kf.parameters["mcHistoCfg"] = os.environ['HPSTR_BASE']+'/analysis/plotconfigs/mc/basicMC.json'
 #####
 recoana_kf.parameters["beamE"] = base.beamE[str(options.year)]
@@ -62,8 +62,8 @@ recoana_kf.parameters["isRadPDG"] = options.isRadPDG
 recoana_kf.parameters["makeFlatTuple"] = options.makeFlatTuple
 #recoana_kf.parameters["beamPosCfg"] = options.beamPosCorr
 #recoana_kf.parameters["beamPosCfg"] = os.environ['HPSTR_BASE']+'/analysis/data/beamspot_positions_2016.json'
-recoana_kf.parameters["eleTrackTimeBias"] = -1.39
-recoana_kf.parameters["posTrackTimeBias"] = -1.61
+#recoana_kf.parameters["eleTrackTimeBias"] = -1.39
+#recoana_kf.parameters["posTrackTimeBias"] = -1.61
 
 
 CalTimeOffset = -999
@@ -80,7 +80,7 @@ else:
 
 recoana_kf.parameters["CalTimeOffset"] = CalTimeOffset
 #Region definitions
-RegionPath = '/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/selections/'
+RegionPath = '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/preselection_cutflow/selections/'
 
 recoana_kf.parameters["regionDefinitions"] = [RegionPath+'posTrkTime_lt_selection.json',
                                               RegionPath+'posTrkCluTimeDiff_lt_selection.json',
