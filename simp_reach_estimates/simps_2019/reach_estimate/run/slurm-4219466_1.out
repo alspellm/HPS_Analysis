@@ -1,0 +1,234 @@
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 79 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 79 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 78 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 79 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+TGraphAsymmErrors::Divide:0: RuntimeWarning: Number of graph points is different than histogram bins - 80 points have been skipped
+LUMI:  110.0
+Running A' mass = 66 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 487415.259587
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 75 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 1000322.903897
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 83 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 1491234.381566
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 91 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 1847479.176008
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 100 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 1979556.880557
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 108 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 1932255.857424
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 116 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 1823743.623506
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 125 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 1641076.101951
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 133 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 1468367.909590
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 141 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 1257826.448843
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 150 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 1079127.640377
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 158 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 894854.289034
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 166 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 741327.597526
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 175 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 588538.063551
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 183 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 486810.433318
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 191 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 396686.120944
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 200 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 334776.319774
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 208 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 275021.161155
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 216 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 207593.647156
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 225 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 149085.891683
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 233 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 118773.567976
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 241 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 92032.963567
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 250 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 75364.940175
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 258 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 62911.212959
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 266 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 49569.325778
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 275 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 39326.662889
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 283 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 30482.405579
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 291 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 20447.575169
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 300 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 15855.364643
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 308 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 11735.649123
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 316 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 10034.830409
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 325 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 9354.502924
+Counting Signal
+Calculate expected signal rate
+Running A' mass = 333 MeV
+LIFETIME FACTOR  1.0
+Counting background rate
+Background Rate: 7823.766082
+Counting Signal
+Calculate expected signal rate
+len exContourMass 32
+len exContourEps 32
