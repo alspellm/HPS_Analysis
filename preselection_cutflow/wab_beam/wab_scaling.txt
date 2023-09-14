@@ -1,0 +1,4 @@
+xsecion = 0.1985b
+sigma = 0.01973 b
+#MG per file = 100k
+nfiles = 9688

@@ -1,0 +1,3574 @@
+[
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007629.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7629,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007629.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 1
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007630.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7630,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007630.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 2
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007636.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7636,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007636.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 3
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007636.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7636,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007636.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 4
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007636.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7636,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007636.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 5
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007636.110_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7636,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007636.110_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 6
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007644.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7644,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007644.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 7
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007644.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7644,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007644.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 8
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007644.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7644,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007644.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 9
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007644.110_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7644,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007644.110_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 10
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007653.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7653,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007653.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 11
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007779.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7779,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007779.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 12
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007779.110_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7779,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007779.110_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 13
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007779.120_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7779,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007779.120_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 14
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007780.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7780,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007780.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 15
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007780.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7780,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007780.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 16
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007781.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7781,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007781.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 17
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007781.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7781,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007781.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 18
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007781.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7781,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007781.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 19
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007795.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7795,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007795.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 20
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007795.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7795,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007795.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 21
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007795.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7795,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007795.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 22
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007796.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7796,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007796.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 23
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007796.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7796,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007796.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 24
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007796.110_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7796,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007796.110_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 25
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007798.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7798,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007798.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 26
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007798.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7798,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007798.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 27
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007798.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7798,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007798.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 28
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007798.120_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7798,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007798.120_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 29
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007799.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7799,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007799.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 30
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007799.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7799,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007799.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 31
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007799.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7799,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007799.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 32
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007799.110_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7799,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007799.110_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 33
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007800.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7800,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007800.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 34
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007800.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7800,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007800.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 35
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007800.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7800,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007800.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 36
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007800.110_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7800,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007800.110_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 37
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007801.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7801,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007801.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 38
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007801.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7801,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007801.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 39
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007801.120_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7801,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007801.120_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 40
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007803.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7803,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007803.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 41
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007803.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7803,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007803.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 42
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007803.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7803,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007803.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 43
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 44
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 45
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.101_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.101_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 46
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.102_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.102_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 47
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.103_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.103_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 48
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.104_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.104_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 49
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.105_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.105_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 50
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.106_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.106_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 51
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.107_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.107_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 52
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.108_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.108_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 53
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.109_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.109_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 54
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 55
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.110_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.110_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 56
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.111_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.111_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 57
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.112_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.112_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 58
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.113_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.113_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 59
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.114_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.114_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 60
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.115_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.115_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 61
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.116_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.116_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 62
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.117_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.117_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 63
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.118_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.118_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 64
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.119_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.119_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 65
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.11_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.11_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 66
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.120_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.120_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 67
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.121_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.121_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 68
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.122_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.122_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 69
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.123_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.123_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 70
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.124_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.124_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 71
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.125_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.125_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 72
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.126_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.126_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 73
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.127_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.127_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 74
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.128_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.128_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 75
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.129_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.129_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 76
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007804.12_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7804,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007804.12_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 77
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007805.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7805,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007805.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 78
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007805.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7805,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007805.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 79
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007805.110_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7805,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007805.110_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 80
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007807.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7807,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007807.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 81
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007807.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7807,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007807.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 82
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007807.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7807,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007807.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 83
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007947.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7947,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007947.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 84
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007947.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7947,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007947.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 85
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007948.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7948,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007948.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 86
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007948.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7948,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007948.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 87
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007948.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7948,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007948.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 88
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007949.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7949,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007949.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 89
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007949.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7949,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007949.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 90
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007962.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7962,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007962.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 91
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007963.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7963,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007963.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 92
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007963.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7963,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007963.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 93
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007964.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7964,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007964.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 94
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007964.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7964,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007964.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 95
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007965.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7965,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007965.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 96
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007966.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7966,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007966.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 97
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007966.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7966,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007966.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 98
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007968.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7968,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007968.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 99
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007968.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7968,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007968.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 100
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007970.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7970,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007970.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 101
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007970.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7970,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007970.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 102
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007972.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7972,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007972.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 103
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007972.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7972,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007972.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 104
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007976.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7976,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007976.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 105
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007983.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7983,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007983.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 106
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007983.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7983,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007983.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 107
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007984.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7984,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007984.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 108
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007984.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7984,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007984.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 109
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007985.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7985,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007985.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 110
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007985.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7985,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007985.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 111
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007986.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7986,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007986.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 112
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007986.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7986,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007986.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 113
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007987.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7987,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007987.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 114
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007987.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7987,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007987.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 115
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007988.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7988,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007988.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 116
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007988.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 7988,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_007988.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 117
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008025.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8025,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008025.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 118
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008025.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8025,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008025.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 119
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008026.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8026,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008026.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 120
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008026.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8026,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008026.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 121
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008027.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8027,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008027.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 122
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008027.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8027,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008027.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 123
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008028.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8028,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008028.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 124
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008028.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8028,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008028.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 125
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008028.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8028,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008028.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 126
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008029.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8029,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008029.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 127
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008029.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8029,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008029.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 128
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008030.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8030,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008030.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 129
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008030.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8030,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008030.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 130
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008031.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8031,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008031.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 131
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008039.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8039,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008039.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 132
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008039.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8039,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008039.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 133
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008040.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8040,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008040.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 134
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008040.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8040,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008040.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 135
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008041.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8041,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008041.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 136
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008043.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8043,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008043.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 137
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008043.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8043,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008043.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 138
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008044.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8044,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008044.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 139
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008044.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8044,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008044.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 140
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008045.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8045,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008045.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 141
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008045.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8045,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008045.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 142
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008046.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8046,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008046.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 143
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008046.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8046,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008046.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 144
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008047.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8047,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008047.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 145
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008047.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8047,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008047.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 146
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008048.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8048,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008048.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 147
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008048.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8048,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008048.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 148
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008049.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8049,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008049.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 149
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008051.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8051,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008051.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 150
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008055.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8055,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008055.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 151
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008057.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8057,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008057.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 152
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008057.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8057,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008057.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 153
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008058.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8058,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008058.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 154
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008058.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8058,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008058.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 155
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008059.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8059,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008059.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 156
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008059.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8059,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008059.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 157
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008059.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8059,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008059.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 158
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008072.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8072,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008072.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 159
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008072.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8072,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008072.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 160
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008073.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8073,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008073.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 161
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008073.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8073,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008073.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 162
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008074.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8074,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008074.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 163
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008074.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8074,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008074.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 164
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008075.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8075,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008075.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 165
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008077.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8077,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008077.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 166
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008085.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8085,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008085.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 167
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008086.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8086,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008086.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 168
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008086.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8086,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008086.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 169
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008087.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8087,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008087.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 170
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008087.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8087,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008087.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 171
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008088.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8088,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008088.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 172
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008090.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8090,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008090.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 173
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008092.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8092,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008092.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 174
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008092.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8092,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008092.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 175
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008094.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8094,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008094.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 176
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008094.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8094,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008094.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 177
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008095.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8095,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008095.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 178
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008095.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8095,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008095.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 179
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008096.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8096,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008096.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 180
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008096.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8096,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008096.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 181
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008097.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8097,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008097.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 182
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008097.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8097,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008097.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 183
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008098.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8098,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008098.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 184
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008098.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8098,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008098.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 185
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008099.0_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8099,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008099.0_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 186
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008099.100_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8099,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008099.100_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 187
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008099.10_recon_4.2.root": "data_events.root"
+        },
+        "run_params": "2pt3",
+        "detector": "HPS-PhysicsRun2016-Pass2",
+        "run_number": 8099,
+        "run_mode": 1,
+        "is_data": 1,
+        "output_files": {
+            "data_events_ana_KF.root": "hps_008099.10_ana_highPsumOnly.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/run/data/preselection_cutflow/output",
+        "config_files": {
+            "ana": "/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/anaKalSimpTuple_Simps_nminus1_cfg.py"
+        },
+        "year": 2016,
+        "job_id": 188
+    }
+]
