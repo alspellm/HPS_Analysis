@@ -1,0 +1,784 @@
+[
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_0.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_0.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 1
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_10.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_1.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 2
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_11.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_2.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 3
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_12.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_3.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 4
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_13.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_4.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 5
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_14.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_5.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 6
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_15.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_6.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 7
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_16.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_7.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 8
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_17.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_8.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 9
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_18.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_9.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 10
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_19.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_10.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 11
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_1.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_11.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 12
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_20.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_12.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 13
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_21.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_13.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 14
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_22.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_14.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 15
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_23.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_15.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 16
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_24.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_16.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 17
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_25.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_17.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 18
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_26.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_18.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 19
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_27.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_19.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 20
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_28.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_20.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 21
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_29.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_21.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 22
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_2.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_22.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 23
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_30.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_23.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 24
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_31.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_24.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 25
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_32.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_25.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 26
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_33.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_26.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 27
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_34.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_27.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 28
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_35.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_28.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 29
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_36.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_29.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 30
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_37.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_30.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 31
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_38.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_31.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 32
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_39.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_32.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 33
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_3.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_33.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 34
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_40.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_34.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 35
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_41.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_35.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 36
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_42.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_36.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 37
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_43.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_37.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 38
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_44.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_38.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 39
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_45.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_39.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 40
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_4.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_40.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 41
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_5.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_41.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 42
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_6.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_42.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 43
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_7.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_43.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 44
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_8.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_44.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 45
+    },
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_9.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_45.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1Top",
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 46
+    }
+]

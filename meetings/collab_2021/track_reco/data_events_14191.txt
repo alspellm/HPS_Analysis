@@ -1,0 +1,10 @@
+/sdf/group/hps/users/bravo/run/run14168/output/hps_014191/HPS_Run2021Pass1Top/data_events_40.root
+/sdf/group/hps/users/bravo/run/run14168/output/hps_014191/HPS_Run2021Pass1Top/data_events_41.root
+/sdf/group/hps/users/bravo/run/run14168/output/hps_014191/HPS_Run2021Pass1Top/data_events_42.root
+/sdf/group/hps/users/bravo/run/run14168/output/hps_014191/HPS_Run2021Pass1Top/data_events_43.root
+/sdf/group/hps/users/bravo/run/run14168/output/hps_014191/HPS_Run2021Pass1Top/data_events_44.root
+/sdf/group/hps/users/bravo/run/run14168/output/hps_014191/HPS_Run2021Pass1Top/data_events_45.root
+/sdf/group/hps/users/bravo/run/run14168/output/hps_014191/HPS_Run2021Pass1Top/data_events_46.root
+/sdf/group/hps/users/bravo/run/run14168/output/hps_014191/HPS_Run2021Pass1Top/data_events_47.root
+/sdf/group/hps/users/bravo/run/run14168/output/hps_014191/HPS_Run2021Pass1Top/data_events_48.root
+/sdf/group/hps/users/bravo/run/run14168/output/hps_014191/HPS_Run2021Pass1Top/data_events_49.root

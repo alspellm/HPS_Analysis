@@ -1,0 +1,20 @@
+[
+    {
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_0.slcio": "data_events.slcio"
+        },
+        "output_files": {
+            "data_events.root": "data_events_0.root"
+        },
+        "config_files": {
+            "ana": "kalSimpTuple_cfg.py"
+        },
+        "detector:": "HPS_Run2021Pass1Top", 
+        "run_number": 14552,
+        "run_mode": 1,
+        "nevents": 100,
+        "year": 2021,
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/ntuples/output",
+        "job_id" : 1
+    }
+]

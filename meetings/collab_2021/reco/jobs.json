@@ -1,0 +1,692 @@
+[
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_0.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_0_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 1
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_1.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_1_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 2
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_2.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_2_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 3
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_3.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_3_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 4
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_4.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_4_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 5
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_5.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_5_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 6
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_6.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_6_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 7
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_7.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_7_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 8
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_8.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_8_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 9
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_9.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_9_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 10
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_10.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_10_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 11
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_11.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_11_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 12
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_12.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_12_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 13
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_13.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_13_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 14
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_14.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_14_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 15
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_15.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_15_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 16
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_16.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_16_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 17
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_17.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_17_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 18
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_18.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_18_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 19
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_19.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_19_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 20
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_20.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_20_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 21
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_21.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_21_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 22
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_22.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_22_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 23
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_23.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_23_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 24
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_24.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_24_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 25
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_25.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_25_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 26
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_26.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_26_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 27
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_27.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_27_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 28
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_28.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_28_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 29
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_29.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_29_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 30
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_30.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_30_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 31
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_31.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_31_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 32
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_32.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_32_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 33
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_33.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_33_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 34
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_34.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_34_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 35
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_35.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_35_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 36
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_36.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_36_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 37
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_37.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_37_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 38
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_38.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_38_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 39
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_39.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_39_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 40
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_40.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_40_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 41
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_41.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_41_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 42
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_42.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_42_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 43
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_43.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_43_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 44
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_44.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_44_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 45
+    },
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "year": 2021,
+        "run_mode": 1,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_45.root": "recon_events.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_45_ana.root"
+        },
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output",
+        "job_id": 46
+    }
+]

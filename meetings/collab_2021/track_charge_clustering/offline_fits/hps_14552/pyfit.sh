@@ -1,0 +1,1 @@
+python3 /home/alic/src/hpstr/bf_dev/offlineBaselineFitAnalysis.py -i ./hps_14552_offline_fits.root -o hps_14552_offline_fits_ana.root -dbo hps_14552_offline_baselines.dat -thresh hps_14552_offline_thresholds.dat -b svt_014511_cond.dat

@@ -1,0 +1,14 @@
+{
+    "config_files": {
+        "ana": "anaTrackHits_cfg.py"
+    },
+    "year": 2021,
+    "run_mode": 1,
+    "input_files": {
+        "{{input_files['data'][0]}}" : "recon_events.root"
+    },
+    "output_files": {
+        "recon_events_ana.root" : "data_events_{{ job_id - 1}}_ana_track.root"
+    },
+    "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/track_reco/output_14552"
+}

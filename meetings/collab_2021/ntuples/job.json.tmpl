@@ -1,0 +1,16 @@
+{
+    "input_files": {
+        "{{input_files['data'][0]}}" : "data_events.slcio"
+    },
+    "output_files": {
+        "data_events.root" : "data_events_{{ job_id - 1}}.root"
+    },
+    "config_files": {
+        "ana": "kalSimpTuple_cfg.py"
+    },
+    "year": 2021,
+    "run_mode": 1,
+    "run_number": {{run_number}},
+    "detector": "HPS_Run2021Pass1Top",
+    "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/reco/output"
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "config_files": {
+            "ana": "anaVtxTuple_cfg.py"
+        },
+        "run_mode": 1,
+        "year": 2021,
+        "input_files": {
+            "/sdf/group/hps/users/bravo/run/run14168/output/hps_014552/HPS_Run2021Pass1Top/data_events_0.root": "recon_events_ana.root"
+        },
+        "output_files": {
+            "recon_events_ana.root": "data_events_0_ana.root"
+        },
+        "job_id" : 1,
+        "output_dir": "/sdf/group/hps/users/alspellm/projects/collab_2021/track_reco/output"
+    }
+]
