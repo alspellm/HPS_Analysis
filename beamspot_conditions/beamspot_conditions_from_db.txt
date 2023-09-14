@@ -1,0 +1,356 @@
+3174|beam_positions|created by jeremym using LoadCommand|Test beam position|2019-07-09 01:47:24
+3175|beam_positions|created by jeremym using LoadCommand|Beam position for run 8099|2019-07-09 02:09:01
+3176|beam_positions|created by jeremym using LoadCommand|Beam position for run 8099|2019-07-09 02:09:42
+3177|beam_positions|created by jeremym using LoadCommand|Beam position for run 8099|2019-07-09 02:09:56
+3178|beam_positions|created by jeremym using LoadCommand|Beam position for run 8099|2019-07-09 02:10:34
+3179|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 02:17:01
+3180|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 02:18:15
+3181|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 02:18:25
+3182|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 02:18:46
+3183|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 02:19:26
+3184|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 02:20:49
+3185|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 02:22:05
+3186|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 02:22:30
+3187|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 02:23:09
+3188|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 02:23:22
+3189|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 02:39:03
+3190|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 02:44:49
+3191|beam_positions|created by jeremym using LoadCommand|Beam position for run 7630|2019-07-09 02:44:54
+3192|beam_positions|created by jeremym using LoadCommand|Beam position for run 7636|2019-07-09 02:44:58
+3193|beam_positions|created by jeremym using LoadCommand|Beam position for run 7637|2019-07-09 02:45:02
+3194|beam_positions|created by jeremym using LoadCommand|Beam position for run 7644|2019-07-09 02:45:05
+3195|beam_positions|created by jeremym using LoadCommand|Beam position for run 7653|2019-07-09 02:45:10
+3196|beam_positions|created by jeremym using LoadCommand|Beam position for run 7779|2019-07-09 02:45:14
+3197|beam_positions|created by jeremym using LoadCommand|Beam position for run 7780|2019-07-09 02:45:18
+3198|beam_positions|created by jeremym using LoadCommand|Beam position for run 7781|2019-07-09 02:45:22
+3199|beam_positions|created by jeremym using LoadCommand|Beam position for run 7782|2019-07-09 02:45:25
+3200|beam_positions|created by jeremym using LoadCommand|Beam position for run 7783|2019-07-09 02:45:28
+3201|beam_positions|created by jeremym using LoadCommand|Beam position for run 7786|2019-07-09 02:45:32
+3202|beam_positions|created by jeremym using LoadCommand|Beam position for run 7795|2019-07-09 02:45:36
+3203|beam_positions|created by jeremym using LoadCommand|Beam position for run 7796|2019-07-09 02:45:40
+3204|beam_positions|created by jeremym using LoadCommand|Beam position for run 7798|2019-07-09 02:45:43
+3205|beam_positions|created by jeremym using LoadCommand|Beam position for run 7799|2019-07-09 02:45:47
+3206|beam_positions|created by jeremym using LoadCommand|Beam position for run 7800|2019-07-09 02:45:50
+3207|beam_positions|created by jeremym using LoadCommand|Beam position for run 7801|2019-07-09 02:45:54
+3208|beam_positions|created by jeremym using LoadCommand|Beam position for run 7803|2019-07-09 02:45:58
+3209|beam_positions|created by jeremym using LoadCommand|Beam position for run 7804|2019-07-09 02:46:01
+3210|beam_positions|created by jeremym using LoadCommand|Beam position for run 7805|2019-07-09 02:46:05
+3211|beam_positions|created by jeremym using LoadCommand|Beam position for run 7807|2019-07-09 02:46:08
+3212|beam_positions|created by jeremym using LoadCommand|Beam position for run 7947|2019-07-09 02:46:12
+3213|beam_positions|created by jeremym using LoadCommand|Beam position for run 7948|2019-07-09 02:46:16
+3214|beam_positions|created by jeremym using LoadCommand|Beam position for run 7949|2019-07-09 02:46:20
+3215|beam_positions|created by jeremym using LoadCommand|Beam position for run 7953|2019-07-09 02:46:24
+3216|beam_positions|created by jeremym using LoadCommand|Beam position for run 7962|2019-07-09 02:46:27
+3217|beam_positions|created by jeremym using LoadCommand|Beam position for run 7963|2019-07-09 02:46:31
+3218|beam_positions|created by jeremym using LoadCommand|Beam position for run 7964|2019-07-09 02:46:35
+3219|beam_positions|created by jeremym using LoadCommand|Beam position for run 7965|2019-07-09 02:46:39
+3220|beam_positions|created by jeremym using LoadCommand|Beam position for run 7966|2019-07-09 02:46:42
+3221|beam_positions|created by jeremym using LoadCommand|Beam position for run 7968|2019-07-09 02:46:45
+3222|beam_positions|created by jeremym using LoadCommand|Beam position for run 7969|2019-07-09 02:46:48
+3223|beam_positions|created by jeremym using LoadCommand|Beam position for run 7970|2019-07-09 02:46:52
+3224|beam_positions|created by jeremym using LoadCommand|Beam position for run 7972|2019-07-09 02:46:56
+3225|beam_positions|created by jeremym using LoadCommand|Beam position for run 7976|2019-07-09 02:47:00
+3226|beam_positions|created by jeremym using LoadCommand|Beam position for run 7982|2019-07-09 02:47:04
+3227|beam_positions|created by jeremym using LoadCommand|Beam position for run 7983|2019-07-09 02:47:08
+3228|beam_positions|created by jeremym using LoadCommand|Beam position for run 7984|2019-07-09 02:47:11
+3229|beam_positions|created by jeremym using LoadCommand|Beam position for run 7985|2019-07-09 02:47:15
+3230|beam_positions|created by jeremym using LoadCommand|Beam position for run 7986|2019-07-09 02:47:19
+3231|beam_positions|created by jeremym using LoadCommand|Beam position for run 7987|2019-07-09 02:47:23
+3232|beam_positions|created by jeremym using LoadCommand|Beam position for run 7988|2019-07-09 02:47:26
+3233|beam_positions|created by jeremym using LoadCommand|Beam position for run 8025|2019-07-09 02:47:30
+3234|beam_positions|created by jeremym using LoadCommand|Beam position for run 8026|2019-07-09 02:47:33
+3235|beam_positions|created by jeremym using LoadCommand|Beam position for run 8027|2019-07-09 02:47:37
+3236|beam_positions|created by jeremym using LoadCommand|Beam position for run 8028|2019-07-09 02:47:41
+3237|beam_positions|created by jeremym using LoadCommand|Beam position for run 8029|2019-07-09 02:47:46
+3238|beam_positions|created by jeremym using LoadCommand|Beam position for run 8030|2019-07-09 02:47:50
+3239|beam_positions|created by jeremym using LoadCommand|Beam position for run 8031|2019-07-09 02:47:55
+3240|beam_positions|created by jeremym using LoadCommand|Beam position for run 8039|2019-07-09 02:47:58
+3241|beam_positions|created by jeremym using LoadCommand|Beam position for run 8040|2019-07-09 02:48:02
+3242|beam_positions|created by jeremym using LoadCommand|Beam position for run 8041|2019-07-09 02:48:06
+3243|beam_positions|created by jeremym using LoadCommand|Beam position for run 8043|2019-07-09 02:48:09
+3244|beam_positions|created by jeremym using LoadCommand|Beam position for run 8044|2019-07-09 02:48:14
+3245|beam_positions|created by jeremym using LoadCommand|Beam position for run 8045|2019-07-09 02:48:18
+3246|beam_positions|created by jeremym using LoadCommand|Beam position for run 8046|2019-07-09 02:48:22
+3247|beam_positions|created by jeremym using LoadCommand|Beam position for run 8047|2019-07-09 02:48:28
+3248|beam_positions|created by jeremym using LoadCommand|Beam position for run 8048|2019-07-09 02:48:33
+3249|beam_positions|created by jeremym using LoadCommand|Beam position for run 8049|2019-07-09 02:48:37
+3250|beam_positions|created by jeremym using LoadCommand|Beam position for run 8051|2019-07-09 02:48:41
+3251|beam_positions|created by jeremym using LoadCommand|Beam position for run 8055|2019-07-09 02:48:46
+3252|beam_positions|created by jeremym using LoadCommand|Beam position for run 8057|2019-07-09 02:48:49
+3253|beam_positions|created by jeremym using LoadCommand|Beam position for run 8058|2019-07-09 02:48:53
+3254|beam_positions|created by jeremym using LoadCommand|Beam position for run 8059|2019-07-09 02:48:56
+3255|beam_positions|created by jeremym using LoadCommand|Beam position for run 8072|2019-07-09 02:49:01
+3256|beam_positions|created by jeremym using LoadCommand|Beam position for run 8073|2019-07-09 02:49:05
+3257|beam_positions|created by jeremym using LoadCommand|Beam position for run 8074|2019-07-09 02:49:08
+3258|beam_positions|created by jeremym using LoadCommand|Beam position for run 8075|2019-07-09 02:49:12
+3259|beam_positions|created by jeremym using LoadCommand|Beam position for run 8077|2019-07-09 02:49:16
+3260|beam_positions|created by jeremym using LoadCommand|Beam position for run 8085|2019-07-09 02:49:21
+3261|beam_positions|created by jeremym using LoadCommand|Beam position for run 8086|2019-07-09 02:49:24
+3262|beam_positions|created by jeremym using LoadCommand|Beam position for run 8087|2019-07-09 02:49:28
+3263|beam_positions|created by jeremym using LoadCommand|Beam position for run 8088|2019-07-09 02:49:32
+3264|beam_positions|created by jeremym using LoadCommand|Beam position for run 8090|2019-07-09 02:49:36
+3265|beam_positions|created by jeremym using LoadCommand|Beam position for run 8092|2019-07-09 02:49:39
+3266|beam_positions|created by jeremym using LoadCommand|Beam position for run 8094|2019-07-09 02:49:43
+3267|beam_positions|created by jeremym using LoadCommand|Beam position for run 8095|2019-07-09 02:49:46
+3268|beam_positions|created by jeremym using LoadCommand|Beam position for run 8096|2019-07-09 02:49:50
+3269|beam_positions|created by jeremym using LoadCommand|Beam position for run 8097|2019-07-09 02:49:54
+3270|beam_positions|created by jeremym using LoadCommand|Beam position for run 8098|2019-07-09 02:49:58
+3271|beam_positions|created by jeremym using LoadCommand|Beam position for run 8099|2019-07-09 02:50:04
+3272|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 04:50:59
+3273|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 04:59:23
+3274|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 05:28:49
+3275|beam_positions|created by jeremym using LoadCommand|Beam position for run 7630|2019-07-09 05:28:53
+3276|beam_positions|created by jeremym using LoadCommand|Beam position for run 7636|2019-07-09 05:28:56
+3277|beam_positions|created by jeremym using LoadCommand|Beam position for run 7637|2019-07-09 05:28:59
+3278|beam_positions|created by jeremym using LoadCommand|Beam position for run 7644|2019-07-09 05:29:03
+3279|beam_positions|created by jeremym using LoadCommand|Beam position for run 7653|2019-07-09 05:29:06
+3280|beam_positions|created by jeremym using LoadCommand|Beam position for run 7779|2019-07-09 05:29:09
+3281|beam_positions|created by jeremym using LoadCommand|Beam position for run 7780|2019-07-09 05:29:15
+3282|beam_positions|created by jeremym using LoadCommand|Beam position for run 7781|2019-07-09 05:29:18
+3283|beam_positions|created by jeremym using LoadCommand|Beam position for run 7782|2019-07-09 05:29:21
+3284|beam_positions|created by jeremym using LoadCommand|Beam position for run 7783|2019-07-09 05:29:24
+3285|beam_positions|created by jeremym using LoadCommand|Beam position for run 7786|2019-07-09 05:29:28
+3286|beam_positions|created by jeremym using LoadCommand|Beam position for run 7795|2019-07-09 05:29:31
+3287|beam_positions|created by jeremym using LoadCommand|Beam position for run 7796|2019-07-09 05:29:34
+3288|beam_positions|created by jeremym using LoadCommand|Beam position for run 7798|2019-07-09 05:29:38
+3289|beam_positions|created by jeremym using LoadCommand|Beam position for run 7799|2019-07-09 05:29:41
+3290|beam_positions|created by jeremym using LoadCommand|Beam position for run 7800|2019-07-09 05:29:44
+3291|beam_positions|created by jeremym using LoadCommand|Beam position for run 7801|2019-07-09 05:29:48
+3292|beam_positions|created by jeremym using LoadCommand|Beam position for run 7803|2019-07-09 05:29:51
+3293|beam_positions|created by jeremym using LoadCommand|Beam position for run 7804|2019-07-09 05:29:55
+3294|beam_positions|created by jeremym using LoadCommand|Beam position for run 7805|2019-07-09 05:29:58
+3295|beam_positions|created by jeremym using LoadCommand|Beam position for run 7807|2019-07-09 05:30:02
+3296|beam_positions|created by jeremym using LoadCommand|Beam position for run 7947|2019-07-09 05:30:05
+3297|beam_positions|created by jeremym using LoadCommand|Beam position for run 7948|2019-07-09 05:30:09
+3298|beam_positions|created by jeremym using LoadCommand|Beam position for run 7949|2019-07-09 05:30:12
+3299|beam_positions|created by jeremym using LoadCommand|Beam position for run 7953|2019-07-09 05:30:16
+3300|beam_positions|created by jeremym using LoadCommand|Beam position for run 7962|2019-07-09 05:30:19
+3301|beam_positions|created by jeremym using LoadCommand|Beam position for run 7963|2019-07-09 05:30:22
+3302|beam_positions|created by jeremym using LoadCommand|Beam position for run 7964|2019-07-09 05:30:26
+3303|beam_positions|created by jeremym using LoadCommand|Beam position for run 7965|2019-07-09 05:30:29
+3304|beam_positions|created by jeremym using LoadCommand|Beam position for run 7966|2019-07-09 05:30:33
+3305|beam_positions|created by jeremym using LoadCommand|Beam position for run 7968|2019-07-09 05:30:36
+3306|beam_positions|created by jeremym using LoadCommand|Beam position for run 7969|2019-07-09 05:30:39
+3307|beam_positions|created by jeremym using LoadCommand|Beam position for run 7970|2019-07-09 05:30:43
+3308|beam_positions|created by jeremym using LoadCommand|Beam position for run 7972|2019-07-09 05:30:46
+3309|beam_positions|created by jeremym using LoadCommand|Beam position for run 7976|2019-07-09 05:30:49
+3310|beam_positions|created by jeremym using LoadCommand|Beam position for run 7982|2019-07-09 05:30:52
+3311|beam_positions|created by jeremym using LoadCommand|Beam position for run 7983|2019-07-09 05:30:55
+3312|beam_positions|created by jeremym using LoadCommand|Beam position for run 7984|2019-07-09 05:30:59
+3313|beam_positions|created by jeremym using LoadCommand|Beam position for run 7985|2019-07-09 05:31:02
+3314|beam_positions|created by jeremym using LoadCommand|Beam position for run 7986|2019-07-09 05:31:06
+3315|beam_positions|created by jeremym using LoadCommand|Beam position for run 7987|2019-07-09 05:31:09
+3316|beam_positions|created by jeremym using LoadCommand|Beam position for run 7988|2019-07-09 05:31:13
+3317|beam_positions|created by jeremym using LoadCommand|Beam position for run 8025|2019-07-09 05:31:16
+3318|beam_positions|created by jeremym using LoadCommand|Beam position for run 8026|2019-07-09 05:31:19
+3319|beam_positions|created by jeremym using LoadCommand|Beam position for run 8027|2019-07-09 05:31:22
+3320|beam_positions|created by jeremym using LoadCommand|Beam position for run 8028|2019-07-09 05:31:25
+3321|beam_positions|created by jeremym using LoadCommand|Beam position for run 8029|2019-07-09 05:31:29
+3322|beam_positions|created by jeremym using LoadCommand|Beam position for run 8030|2019-07-09 05:31:32
+3323|beam_positions|created by jeremym using LoadCommand|Beam position for run 8031|2019-07-09 05:31:35
+3324|beam_positions|created by jeremym using LoadCommand|Beam position for run 8039|2019-07-09 05:31:38
+3325|beam_positions|created by jeremym using LoadCommand|Beam position for run 8040|2019-07-09 05:31:41
+3326|beam_positions|created by jeremym using LoadCommand|Beam position for run 8041|2019-07-09 05:31:45
+3327|beam_positions|created by jeremym using LoadCommand|Beam position for run 8043|2019-07-09 05:31:48
+3328|beam_positions|created by jeremym using LoadCommand|Beam position for run 8044|2019-07-09 05:31:51
+3329|beam_positions|created by jeremym using LoadCommand|Beam position for run 8045|2019-07-09 05:31:55
+3330|beam_positions|created by jeremym using LoadCommand|Beam position for run 8046|2019-07-09 05:31:58
+3331|beam_positions|created by jeremym using LoadCommand|Beam position for run 8047|2019-07-09 05:32:01
+3332|beam_positions|created by jeremym using LoadCommand|Beam position for run 8048|2019-07-09 05:32:05
+3333|beam_positions|created by jeremym using LoadCommand|Beam position for run 8049|2019-07-09 05:32:08
+3334|beam_positions|created by jeremym using LoadCommand|Beam position for run 8051|2019-07-09 05:32:11
+3335|beam_positions|created by jeremym using LoadCommand|Beam position for run 8055|2019-07-09 05:32:15
+3336|beam_positions|created by jeremym using LoadCommand|Beam position for run 8057|2019-07-09 05:32:18
+3337|beam_positions|created by jeremym using LoadCommand|Beam position for run 8058|2019-07-09 05:32:21
+3338|beam_positions|created by jeremym using LoadCommand|Beam position for run 8059|2019-07-09 05:32:25
+3339|beam_positions|created by jeremym using LoadCommand|Beam position for run 8072|2019-07-09 05:32:28
+3340|beam_positions|created by jeremym using LoadCommand|Beam position for run 8073|2019-07-09 05:32:31
+3341|beam_positions|created by jeremym using LoadCommand|Beam position for run 8074|2019-07-09 05:32:34
+3342|beam_positions|created by jeremym using LoadCommand|Beam position for run 8075|2019-07-09 05:32:37
+3343|beam_positions|created by jeremym using LoadCommand|Beam position for run 8077|2019-07-09 05:32:40
+3344|beam_positions|created by jeremym using LoadCommand|Beam position for run 8085|2019-07-09 05:32:44
+3345|beam_positions|created by jeremym using LoadCommand|Beam position for run 8086|2019-07-09 05:32:47
+3346|beam_positions|created by jeremym using LoadCommand|Beam position for run 8087|2019-07-09 05:32:51
+3347|beam_positions|created by jeremym using LoadCommand|Beam position for run 8088|2019-07-09 05:32:54
+3348|beam_positions|created by jeremym using LoadCommand|Beam position for run 8090|2019-07-09 05:32:57
+3349|beam_positions|created by jeremym using LoadCommand|Beam position for run 8092|2019-07-09 05:33:00
+3350|beam_positions|created by jeremym using LoadCommand|Beam position for run 8094|2019-07-09 05:33:04
+3351|beam_positions|created by jeremym using LoadCommand|Beam position for run 8095|2019-07-09 05:33:06
+3352|beam_positions|created by jeremym using LoadCommand|Beam position for run 8096|2019-07-09 05:33:10
+3353|beam_positions|created by jeremym using LoadCommand|Beam position for run 8097|2019-07-09 05:33:13
+3354|beam_positions|created by jeremym using LoadCommand|Beam position for run 8098|2019-07-09 05:33:16
+3355|beam_positions|created by jeremym using LoadCommand|Beam position for run 8099|2019-07-09 05:33:19
+3356|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 05:36:16
+3357|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 05:38:06
+3358|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 05:39:39
+3359|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 05:45:36
+3360|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 05:47:48
+3361|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 05:55:02
+3362|beam_positions|created by jeremym using LoadCommand|'Beam|2019-07-09 05:56:45
+3363|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 06:01:11
+3364|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 06:05:06
+3365|beam_positions|created by jeremym using LoadCommand|Beam position for run 7629|2019-07-09 06:06:30
+3366|beam_positions|created by jeremym using LoadCommand|Beam position for run 7630|2019-07-09 06:06:32
+3367|beam_positions|created by jeremym using LoadCommand|Beam position for run 7636|2019-07-09 06:06:34
+3368|beam_positions|created by jeremym using LoadCommand|Beam position for run 7637|2019-07-09 06:06:36
+3369|beam_positions|created by jeremym using LoadCommand|Beam position for run 7644|2019-07-09 06:06:37
+3370|beam_positions|created by jeremym using LoadCommand|Beam position for run 7653|2019-07-09 06:06:39
+3371|beam_positions|created by jeremym using LoadCommand|Beam position for run 7779|2019-07-09 06:06:41
+3372|beam_positions|created by jeremym using LoadCommand|Beam position for run 7780|2019-07-09 06:06:43
+3373|beam_positions|created by jeremym using LoadCommand|Beam position for run 7781|2019-07-09 06:06:44
+3374|beam_positions|created by jeremym using LoadCommand|Beam position for run 7782|2019-07-09 06:06:46
+3375|beam_positions|created by jeremym using LoadCommand|Beam position for run 7783|2019-07-09 06:06:48
+3376|beam_positions|created by jeremym using LoadCommand|Beam position for run 7786|2019-07-09 06:06:49
+3377|beam_positions|created by jeremym using LoadCommand|Beam position for run 7795|2019-07-09 06:06:51
+3378|beam_positions|created by jeremym using LoadCommand|Beam position for run 7796|2019-07-09 06:06:53
+3379|beam_positions|created by jeremym using LoadCommand|Beam position for run 7798|2019-07-09 06:06:54
+3380|beam_positions|created by jeremym using LoadCommand|Beam position for run 7799|2019-07-09 06:06:56
+3381|beam_positions|created by jeremym using LoadCommand|Beam position for run 7800|2019-07-09 06:06:58
+3382|beam_positions|created by jeremym using LoadCommand|Beam position for run 7801|2019-07-09 06:07:00
+3383|beam_positions|created by jeremym using LoadCommand|Beam position for run 7803|2019-07-09 06:07:01
+3384|beam_positions|created by jeremym using LoadCommand|Beam position for run 7804|2019-07-09 06:07:03
+3385|beam_positions|created by jeremym using LoadCommand|Beam position for run 7805|2019-07-09 06:07:05
+3386|beam_positions|created by jeremym using LoadCommand|Beam position for run 7807|2019-07-09 06:07:06
+3387|beam_positions|created by jeremym using LoadCommand|Beam position for run 7947|2019-07-09 06:07:08
+3388|beam_positions|created by jeremym using LoadCommand|Beam position for run 7948|2019-07-09 06:07:10
+3389|beam_positions|created by jeremym using LoadCommand|Beam position for run 7949|2019-07-09 06:07:11
+3390|beam_positions|created by jeremym using LoadCommand|Beam position for run 7953|2019-07-09 06:07:13
+3391|beam_positions|created by jeremym using LoadCommand|Beam position for run 7962|2019-07-09 06:07:15
+3392|beam_positions|created by jeremym using LoadCommand|Beam position for run 7963|2019-07-09 06:07:16
+3393|beam_positions|created by jeremym using LoadCommand|Beam position for run 7964|2019-07-09 06:07:18
+3394|beam_positions|created by jeremym using LoadCommand|Beam position for run 7965|2019-07-09 06:07:20
+3395|beam_positions|created by jeremym using LoadCommand|Beam position for run 7966|2019-07-09 06:07:22
+3396|beam_positions|created by jeremym using LoadCommand|Beam position for run 7968|2019-07-09 06:07:23
+3397|beam_positions|created by jeremym using LoadCommand|Beam position for run 7969|2019-07-09 06:07:25
+3398|beam_positions|created by jeremym using LoadCommand|Beam position for run 7970|2019-07-09 06:07:27
+3399|beam_positions|created by jeremym using LoadCommand|Beam position for run 7972|2019-07-09 06:07:29
+3400|beam_positions|created by jeremym using LoadCommand|Beam position for run 7976|2019-07-09 06:07:30
+3401|beam_positions|created by jeremym using LoadCommand|Beam position for run 7982|2019-07-09 06:07:32
+3402|beam_positions|created by jeremym using LoadCommand|Beam position for run 7983|2019-07-09 06:07:34
+3403|beam_positions|created by jeremym using LoadCommand|Beam position for run 7984|2019-07-09 06:07:35
+3404|beam_positions|created by jeremym using LoadCommand|Beam position for run 7985|2019-07-09 06:07:37
+3405|beam_positions|created by jeremym using LoadCommand|Beam position for run 7986|2019-07-09 06:07:39
+3406|beam_positions|created by jeremym using LoadCommand|Beam position for run 7987|2019-07-09 06:07:41
+3407|beam_positions|created by jeremym using LoadCommand|Beam position for run 7988|2019-07-09 06:07:42
+3408|beam_positions|created by jeremym using LoadCommand|Beam position for run 8025|2019-07-09 06:07:44
+3409|beam_positions|created by jeremym using LoadCommand|Beam position for run 8026|2019-07-09 06:07:46
+3410|beam_positions|created by jeremym using LoadCommand|Beam position for run 8027|2019-07-09 06:07:47
+3411|beam_positions|created by jeremym using LoadCommand|Beam position for run 8028|2019-07-09 06:07:49
+3412|beam_positions|created by jeremym using LoadCommand|Beam position for run 8029|2019-07-09 06:07:51
+3413|beam_positions|created by jeremym using LoadCommand|Beam position for run 8030|2019-07-09 06:07:52
+3414|beam_positions|created by jeremym using LoadCommand|Beam position for run 8031|2019-07-09 06:07:54
+3415|beam_positions|created by jeremym using LoadCommand|Beam position for run 8039|2019-07-09 06:07:56
+3416|beam_positions|created by jeremym using LoadCommand|Beam position for run 8040|2019-07-09 06:07:57
+3417|beam_positions|created by jeremym using LoadCommand|Beam position for run 8041|2019-07-09 06:07:59
+3418|beam_positions|created by jeremym using LoadCommand|Beam position for run 8043|2019-07-09 06:08:01
+3419|beam_positions|created by jeremym using LoadCommand|Beam position for run 8044|2019-07-09 06:08:03
+3420|beam_positions|created by jeremym using LoadCommand|Beam position for run 8045|2019-07-09 06:08:04
+3421|beam_positions|created by jeremym using LoadCommand|Beam position for run 8046|2019-07-09 06:08:06
+3422|beam_positions|created by jeremym using LoadCommand|Beam position for run 8047|2019-07-09 06:08:08
+3423|beam_positions|created by jeremym using LoadCommand|Beam position for run 8048|2019-07-09 06:08:09
+3424|beam_positions|created by jeremym using LoadCommand|Beam position for run 8049|2019-07-09 06:08:11
+3425|beam_positions|created by jeremym using LoadCommand|Beam position for run 8051|2019-07-09 06:08:13
+3426|beam_positions|created by jeremym using LoadCommand|Beam position for run 8055|2019-07-09 06:08:15
+3427|beam_positions|created by jeremym using LoadCommand|Beam position for run 8057|2019-07-09 06:08:16
+3428|beam_positions|created by jeremym using LoadCommand|Beam position for run 8058|2019-07-09 06:08:18
+3429|beam_positions|created by jeremym using LoadCommand|Beam position for run 8059|2019-07-09 06:08:20
+3430|beam_positions|created by jeremym using LoadCommand|Beam position for run 8072|2019-07-09 06:08:21
+3431|beam_positions|created by jeremym using LoadCommand|Beam position for run 8073|2019-07-09 06:08:23
+3432|beam_positions|created by jeremym using LoadCommand|Beam position for run 8074|2019-07-09 06:08:25
+3433|beam_positions|created by jeremym using LoadCommand|Beam position for run 8075|2019-07-09 06:08:27
+3434|beam_positions|created by jeremym using LoadCommand|Beam position for run 8077|2019-07-09 06:08:28
+3435|beam_positions|created by jeremym using LoadCommand|Beam position for run 8085|2019-07-09 06:08:30
+3436|beam_positions|created by jeremym using LoadCommand|Beam position for run 8086|2019-07-09 06:08:32
+3437|beam_positions|created by jeremym using LoadCommand|Beam position for run 8087|2019-07-09 06:08:34
+3438|beam_positions|created by jeremym using LoadCommand|Beam position for run 8088|2019-07-09 06:08:35
+3439|beam_positions|created by jeremym using LoadCommand|Beam position for run 8090|2019-07-09 06:08:37
+3440|beam_positions|created by jeremym using LoadCommand|Beam position for run 8092|2019-07-09 06:08:39
+3441|beam_positions|created by jeremym using LoadCommand|Beam position for run 8094|2019-07-09 06:08:40
+3442|beam_positions|created by jeremym using LoadCommand|Beam position for run 8095|2019-07-09 06:08:42
+3443|beam_positions|created by jeremym using LoadCommand|Beam position for run 8096|2019-07-09 06:08:44
+3444|beam_positions|created by jeremym using LoadCommand|Beam position for run 8097|2019-07-09 06:08:45
+3445|beam_positions|created by jeremym using LoadCommand|Beam position for run 8098|2019-07-09 06:08:47
+3446|beam_positions|created by jeremym using LoadCommand|Beam position for run 8099|2019-07-09 06:08:49
+92|3364|-0.12993997991|-0.0853344591497|-4.17277481802
+93|3365|-0.12993997991|-0.0853344591497|-4.17277481802
+94|3366|-0.131667930281|-0.0818403429116|-4.14431582882
+95|3367|-0.133674849016|-0.089578068184|-4.21047915591
+96|3368|-0.101418909471|-0.0910518478041|-4.24645776407
+97|3369|-0.130285615341|-0.0822733438671|-4.17901911124
+98|3370|-0.131034318083|-0.0791072417695|-4.17260490817
+99|3371|-0.14063872959|-0.0964567926519|-4.1787064368
+100|3372|-0.138420200972|-0.0946284667682|-4.1728601751
+101|3373|-0.156226289295|-0.0968035162023|-4.16985657657
+102|3374|-0.140219484074|-0.109736506045|-4.18257346152
+103|3375|-0.140219484074|-0.109736506045|-4.18257346152
+104|3376|-0.166377573933|-0.0970139372611|-4.12972261841
+105|3377|-0.144244767944|-0.0853166371595|-4.21859751579
+106|3378|-0.143712797497|-0.0814142818837|-4.20194805564
+107|3379|-0.145096101419|-0.0763395379254|-4.23579296792
+108|3380|-0.150063795069|-0.0747834605672|-4.21915161348
+109|3381|-0.148070389758|-0.0759533031441|-4.21341596102
+110|3382|-0.152015276101|-0.0771084658072|-4.22235421469
+111|3383|-0.142164101651|-0.0737517199669|-4.34166909052
+112|3384|-0.142501982627|-0.0736984742692|-4.32755215514
+113|3385|-0.14128234629|-0.0719415420433|-4.34001918433
+114|3386|-0.146538069491|-0.0713110421539|-4.2913881367
+115|3387|-0.0910859069129|-0.115216742215|-4.11570919432
+116|3388|-0.0686135478054|-0.129060986622|-4.15441978567
+117|3389|-0.0732414149365|-0.133909636515|-4.15625618167
+118|3390|-0.0498468870412|-0.136667869602|-4.1247535341
+119|3391|-0.0888237919098|-0.133084782275|-4.18892745552
+120|3392|-0.0746121484095|-0.138791648195|-4.21544617772
+121|3393|-0.0767100152439|-0.138029976144|-4.22151568434
+122|3394|-0.0633124399662|-0.13548854|-4.21982078088
+123|3395|-0.074293601613|-0.136050581329|-4.22967441763
+124|3396|-0.0898360310379|-0.1348398567|-4.24234161374
+125|3397|-0.0870002501041|-0.133719459818|-4.27252423462
+126|3398|-0.0857240792101|-0.116971022199|-4.26842346064
+127|3399|0.0345877733342|-0.100637477098|-4.33363167982
+128|3400|0.0248070264018|-0.102808747635|-4.28593685326
+129|3401|0.0127599017288|-0.101991281778|-4.29646985597
+130|3402|0.0189046639217|-0.107073001527|-4.26170058486
+131|3403|0.0245269396206|-0.108859729825|-4.27436464212
+132|3404|0.0236149343493|-0.114436070246|-4.27834263863
+133|3405|0.0290293298289|-0.129868804995|-4.27263205142
+134|3406|0.021546891022|-0.134582348971|-4.26816324002
+135|3407|0.0288738200402|-0.134675209766|-4.25916023097
+136|3408|-0.0374515885847|-0.111794925212|-4.26772080184
+137|3409|-0.0130037595274|-0.108269292234|-4.26342349557
+138|3410|-0.00643925463781|-0.10675932599|-4.26228873413
+139|3411|-0.00747575221052|-0.102814820173|-4.24130730501
+140|3412|-0.00447916152702|-0.105249943381|-4.22872103491
+141|3413|-0.000357473510209|-0.106146355534|-4.23900754195
+142|3414|0.000100290515539|-0.104054377677|-4.20496275068
+143|3415|-0.0011390722464|-0.101544332935|-4.22124716174
+144|3416|-0.00181385356273|-0.102991182594|-4.2205668431
+145|3417|0.00197335438837|-0.101551648105|-4.28721393166
+146|3418|-0.000848565041975|-0.0995558470643|-4.22920389672
+147|3419|-0.00175258909226|-0.0988413432517|-4.22870291956
+148|3420|-0.00866029673502|-0.100045336346|-4.20258011807
+149|3421|-0.00729779373861|-0.100652118073|-4.22290557247
+150|3422|-0.0202991409332|-0.105998899874|-4.14601676145
+151|3423|-0.00924325674287|-0.106248419021|-4.20679634717
+152|3424|-0.00500571957867|-0.10725973208|-4.21496917922
+153|3425|-0.00153038672528|-0.111092588541|-4.2126457536
+154|3426|0.0206565632476|-0.115598253441|-4.28341733723
+155|3427|0.00480487421616|-0.104316741434|-4.2882639213
+156|3428|0.00818999458705|-0.109941003868|-4.29698307957
+157|3429|-0.00153129299044|-0.111814005204|-4.28762465865
+158|3430|0.0180721454354|-0.113772583512|-4.13924541982
+159|3431|-0.00108521877967|-0.112893566712|-4.15278781506
+160|3432|0.00618781078807|-0.113017354596|-4.15571729252
+161|3433|-0.00486744222345|-0.112424119993|-4.1733104989
+162|3434|0.0110201050856|-0.109299859828|-4.20683436964
+163|3435|0.0439497207201|-0.0903205833013|-4.13876392508
+164|3436|0.0597982603734|-0.0910001508689|-4.16507539815
+165|3437|0.0396348079161|-0.0784607661075|-4.20213132671
+166|3438|0.0741295264942|-0.0838311072439|-4.23374437206
+167|3439|0.0224605407948|-0.078660407208|-4.18462908099
+168|3440|0.00789727246464|-0.0745098357754|-4.23292219117
+169|3441|0.00356660582853|-0.072071620408|-4.21308308691
+170|3442|0.00805359635246|-0.0747092315702|-4.20185037174
+171|3443|0.00613811160073|-0.0741564828197|-4.23251278514
+172|3444|0.00740408472403|-0.0735952313026|-4.19022011872
+173|3445|0.00408775878779|-0.0755429310062|-4.20923479595
+174|3446|0.0051498614277|-0.0797183115611|-4.20773101369
