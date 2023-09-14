@@ -1,0 +1,8 @@
+11/18/21
+We have found that in hps-java, the hit reconstruction code uses a 2nd order fit function, despite the fit documentation showing a 
+3rd order fit shape. It is not clear if the 3rd order term was dropped for any good reason, or if it is a bug (Cam contacting Sho).
+
+Not only this, but we've found the shape time constants, Tau1 and Tau2, in the 2019 collections database, are all the same dummy values of 35 and 10, and these vary significantly from the 2016 numbers. It's also not clear if the 2016 shape fit constants were derived from the 2nd order or 3rd order shape.
+
+So need to take existing cdel scan data, and fit the channels with both 2nd and 3rd order fits, and compare to see if there is a significant difference
+in these fits...which one is the correct one to use??
