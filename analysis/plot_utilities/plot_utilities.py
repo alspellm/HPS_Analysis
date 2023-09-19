@@ -8,6 +8,14 @@ import os
 import sys
 from tabulate import tabulate
 
+def addHisto1D(name, nbins, xmin, xmax, title='', xlabel='', ylabel=''):
+    h = r.TH1F('%s'%(name),'%s;%s;%s'%(title, xlabel, ylabel),nbins, xmin, xmax)
+    return h
+
+def addHisto2D(name, nbinsx, xmin, xmax, nbinsy, ymin, ymax, title='', xlabel='', ylabel=''):
+    h = r.TH2F('%s'%(name),'%s;%s;%s'%(title, xlabel, ylabel),nbinsx, xmin, xmax, nbinsy, ymin, ymax)
+    return h
+
 def drawTLine(canvas, x_value, line_color=2):
     canvas.cd()
     line = r.TLine(x_value, canvas.GetUymin(), x_value, canvas.GetUymax())
@@ -80,6 +88,7 @@ def SetMyStyle(tsize=0.035, tzsize=0.035, font=42, setOptTitle=0, setOptStat=0, 
 
     #use bold lines and markers
     myStyle.SetMarkerSize(1.0)
+    myStyle.SetMarkerStyle(8)
     myStyle.SetMarkerColor(1)
     myStyle.SetLineColor(1)
     myStyle.SetHistLineWidth(3)
@@ -302,7 +311,7 @@ def read_1d_plots_from_root_file(file_path, root_dir="", keyword=""):
 
 def formatHisto(histogram, name=None, title=None, x_label=None, y_label=None,
         line_width=None, line_color=None, marker_style=None,
-        marker_size=None, line_style=None):
+        marker_size=None, marker_color=None, line_style=None):
     if name is not None:
         histogram.SetName(name)
     if title is not None:
@@ -319,6 +328,8 @@ def formatHisto(histogram, name=None, title=None, x_label=None, y_label=None,
         histogram.SetMarkerStyle(marker_style)
     if marker_size is not None:
         histogram.SetMarkerSize(marker_size)
+    if marker_color is not None:
+        histogram.SetMarkerColor(marker_color)
     if line_style is not None:
         histogram.SetLineStyle(line_style)
 

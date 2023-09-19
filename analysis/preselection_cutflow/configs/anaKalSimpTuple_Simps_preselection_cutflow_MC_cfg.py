@@ -38,7 +38,6 @@ p.add_library("libprocessors")
 
 recoana_kf = HpstrConf.Processor('vtxana_kf', 'VertexAnaProcessor')
 recoana_gbl = HpstrConf.Processor('vtxana_gbl', 'VertexAnaProcessor')
-mcana = HpstrConf.Processor('mcpartana', 'MCAnaProcessor')
 ###############################
 #   Processor Configuration   #
 ###############################
@@ -62,8 +61,6 @@ recoana_kf.parameters["isRadPDG"] = options.isRadPDG
 recoana_kf.parameters["makeFlatTuple"] = options.makeFlatTuple
 #recoana_kf.parameters["beamPosCfg"] = options.beamPosCorr
 #recoana_kf.parameters["beamPosCfg"] = os.environ['HPSTR_BASE']+'/analysis/data/beamspot_positions_2016.json'
-#recoana_kf.parameters["eleTrackTimeBias"] = -1.39
-#recoana_kf.parameters["posTrackTimeBias"] = -1.61
 recoana_kf.parameters["eleTrackTimeBias"] = -2.2 #MC
 recoana_kf.parameters["posTrackTimeBias"] = -2.1 #MC
 
@@ -82,23 +79,23 @@ else:
 
 recoana_kf.parameters["CalTimeOffset"] = CalTimeOffset
 #Region definitions
-RegionPath = '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/preselection_cutflow/selections/'
+RegionPath = '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/preselection_cutflow/selections/cutflow/'
 
-recoana_kf.parameters["regionDefinitions"] = [RegionPath+'posTrkTime_lt_selection.json',
-                                              RegionPath+'posTrkCluTimeDiff_lt_selection.json',
-                                              RegionPath+'posTrkChi2Ndf_lt_selection.json',
-                                              RegionPath+'posN2Dhits_gt_selection.json',
-                                              RegionPath+'posMom_gt_selection.json',
-                                              RegionPath+'Pair1_eq_selection.json',
-                                              RegionPath+'eleTrkTime_lt_selection.json',
-                                              RegionPath+'eleTrkCluTimeDiff_lt_selection.json',
-                                              RegionPath+'eleTrkChi2Ndf_lt_selection.json',
-                                              RegionPath+'eleposCluTimeDiff_lt_selection.json',
-                                              RegionPath+'eleN2Dhits_gt_selection.json',
-                                              RegionPath+'eleMom_lt_selection.json',
-                                              RegionPath+'eleMom_gt_selection.json',
-                                              RegionPath+'maxVtxMom_lt_selection.json',
-                                              RegionPath+'chi2unc_lt_selection.json']
+recoana_kf.parameters["regionDefinitions"] = [RegionPath+'posTrkTime_lt_selection_inclusive.json',
+                                              RegionPath+'posTrkCluTimeDiff_lt_selection_inclusive.json',
+                                              RegionPath+'posTrkChi2Ndf_lt_selection_inclusive.json',
+                                              RegionPath+'posN2Dhits_gt_selection_inclusive.json',
+                                              RegionPath+'posMom_gt_selection_inclusive.json',
+                                              RegionPath+'Pair1_eq_selection_inclusive.json',
+                                              RegionPath+'eleTrkTime_lt_selection_inclusive.json',
+                                              RegionPath+'eleTrkCluTimeDiff_lt_selection_inclusive.json',
+                                              RegionPath+'eleTrkChi2Ndf_lt_selection_inclusive.json',
+                                              RegionPath+'eleposCluTimeDiff_lt_selection_inclusive.json',
+                                              RegionPath+'eleN2Dhits_gt_selection_inclusive.json',
+                                              RegionPath+'eleMom_lt_selection_inclusive.json',
+                                              RegionPath+'eleMom_gt_selection_inclusive.json',
+                                              RegionPath+'maxVtxMom_lt_selection_inclusive.json',
+                                              RegionPath+'chi2unc_lt_selection_inclusive.json']
 
 
 # Sequence which the processors will run.

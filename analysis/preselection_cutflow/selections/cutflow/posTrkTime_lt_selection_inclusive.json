@@ -1,0 +1,17 @@
+{
+    "Pair1_eq": {
+        "cut": 1,
+        "id": 0,
+        "info": "Trigger Pair1"
+    },
+    "eleTrkTime_lt": {
+        "cut": 6,
+        "id": 1,
+        "info": "e^{-} trkTime<6ns"
+    },
+    "posTrkTime_lt": {
+        "cut": 6,
+        "id": 2,
+        "info": "e^{+} trkTime<6ns"
+    }
+}

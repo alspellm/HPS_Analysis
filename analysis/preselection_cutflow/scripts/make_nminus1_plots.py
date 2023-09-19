@@ -3,7 +3,7 @@ import ROOT as r
 import numpy as np
 from array import array
 import sys
-sys.path.append( '/sdf/group/hps/users/alspellm/projects/THESIS/ana/analysis_scripts/plot_utils')
+sys.path.append( '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/plot_utilities')
 import plot_utilities as utils
 import json
 from tabulate import tabulate
@@ -56,15 +56,15 @@ colors = utils.getColorsHPS()
 #r.gROOT.ForceStyle()
 
 #data
-infile = '../data/hadd_hps_BLPass4_10pct_preselection_nminus1.root'
+infile = '../data/hadd_hps_BLPass4_10pct_preselection_nminus1_20230914.root'
 #tritrig
-tritrig = '/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/tritrig_beam/hadd_tritrig-beam_preselection_nminus1.root'
+tritrig = '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/preselection_cutflow/tritrig_beam/hadd_tritrig_beam_preselection_20230915.root'
 #wab
-wab = '/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/wab_beam/hadd_wab_beam_preselection.root'
+wab = '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/preselection_cutflow/wab_beam/hadd_wab_beam_preselection_20230915.root'
 
 #signal 60MeV
-sig_60 = '/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/signal/hadd_simp_beam_60MeV_preselection.root'
-sig_100 = '/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/signal/hadd_simp_beam_100MeV_preselection.root'
+sig_60 = '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/preselection_cutflow/signal/hadd_signal_60_MeV_beam_preselection_20230915.root'
+sig_100 = '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/preselection_cutflow/signal/hadd_signal_60_MeV_beam_preselection_20230915.root'
 
 #MC Scaling
 Lumi = 0.107 #1/pb
@@ -74,7 +74,7 @@ mcScale['wab'] = 0.1985e12*Lumi/(100000*9688) #pb2016
 
 
 #selection
-preselection = '/sdf/group/hps/users/alspellm/projects/THESIS/ana/preselection_cutflow/configs/vertexSelection_2016_simp_preselection.json'
+preselection = '../configs/vertexSelection_2016_simp_preselection.json'
 
 #Define cut variables for each cut in json
 cuts = {'eleTrkTime_lt': 'ele_time',
@@ -91,6 +91,22 @@ cuts = {'eleTrkTime_lt': 'ele_time',
         'posN2Dhits_gt': 'pos_track_n2dhits',
         'maxVtxMom_lt': 'vtx_Psum',
         'chi2unc_lt':'vtx_chi2'
+        }
+
+latex_cuts = {'eleTrkTime_lt': '$|e^{-} Track_{t}| < ',
+        'posTrkTime_lt': '$|e^{+} Track_{t}| <',
+        'eleposCluTimeDiff_lt': '$\Delta_{t}(cluster_{e^{-}},cluster_{e^{+}} < ',
+        'eleTrkCluTimeDiff_lt': '$e^{-}\Delta_{t}(track,cluster) < ',
+        'posTrkCluTimeDiff_lt': '$e^{+}\Delta_{t}(track,cluster) < ',
+        'eleTrkChi2Ndf_lt': '$e^{-} Track \Chi^2/n.d.f. < ',
+        'posTrkChi2Ndf_lt': '$e^{+} Track \Chi^2/n.d.f. < ',
+        'eleMom_lt': '$p_{e^-} < ',
+        'eleMom_gt': '$p_{e^-} > ',
+        'posMom_gt': '$p_{e^+} > ',
+        'eleN2Dhits_gt': '$N_{2d hits} on e^{-}_{Track} >= ',
+        'posN2Dhits_gt': '$N_{2d hits} on e^{+}_{Track} >= ',
+        'maxVtxMom_lt': '$p_{e^{-}+e^{+}} < ',
+        'chi2unc_lt':'$Vtx_{\Chi^2} < '
         }
 
 #Store values for latex table
@@ -122,25 +138,29 @@ for cut, info in sel.items():
     #if i > 2:
     #    continue
 
-    row_labels.append(cut)
+    #Format row labels for latex
+    latex_label = latex_cuts[cut]
+    #Append cut value
+    latex_label = latex_label+'%s$'%(str(cutval))
+    row_labels.append(latex_label)
 
     #data
     data_plot = utils.read_1d_plots_from_root_file(infile, directory, '%s_h'%(cuts[cut]))[0]
-    utils.formatHisto(data_plot, line_color=colors[0],name='data', title='1% data')
+    utils.formatHisto(data_plot, line_color=colors[0],name='Data', title='1% data')
 
     #tritrig
     tritrig_plot = utils.read_1d_plots_from_root_file(tritrig, directory, '%s_h'%(cuts[cut]))[0]
-    utils.formatHisto(tritrig_plot, line_color=colors[1],name='tritrig', title='tritrig+beam')
+    utils.formatHisto(tritrig_plot, line_color=colors[1],name='Tritrig-Beam', title='Tritrig+Beam')
 
     #wab
     wab_plot = utils.read_1d_plots_from_root_file(wab, directory, '%s_h'%(cuts[cut]))[0]
-    utils.formatHisto(wab_plot, line_color=colors[2],name='wab', title='wab+beam')
+    utils.formatHisto(wab_plot, line_color=colors[2],name='WAB-Beam', title='WAB+Beam')
 
     #Signal
     sig60_plot = utils.read_1d_plots_from_root_file(sig_60, directory, '%s_h'%(cuts[cut]))[0]
-    utils.formatHisto(sig60_plot, line_color=colors[3],name='signal_60MeV', title='Signal_60MeV')
+    utils.formatHisto(sig60_plot, line_color=colors[3],name='Signal-60 MeV', title='Signal_60MeV')
     sig100_plot = utils.read_1d_plots_from_root_file(sig_100, directory, '%s_h'%(cuts[cut]))[0]
-    utils.formatHisto(sig100_plot, line_color=colors[4],name='signal_100MeV', title='Signal_100MeV')
+    utils.formatHisto(sig100_plot, line_color=colors[4],name='Signal-100 MeV', title='Signal_100MeV')
 
     #Scale tritrig+wab+beam
     #tritrig_plot.Scale(mcScale['tritrig'])
@@ -150,7 +170,7 @@ for cut, info in sel.items():
     wab_clone_plot = wab_plot.Clone()
     wab_clone_plot.Scale(mcScale['wab'])
     mc_bkg_plot.Add(wab_clone_plot)
-    utils.formatHisto(mc_bkg_plot, line_color=colors[5],name='tritrig_wab_beam', title='tritri+wab+beam')
+    utils.formatHisto(mc_bkg_plot, line_color=colors[5],name='Tritrig-WAB-Beam', title='tritri+wab+beam')
 
     #collect plots
     plots = [data_plot, tritrig_plot, wab_plot, mc_bkg_plot, sig60_plot, sig100_plot]
@@ -182,8 +202,9 @@ for cut, info in sel.items():
     if any(substring in cut for substring in no_freezeX):
         freezeX = False
 
-    c = utils.plot_TH1s_with_legend(plots, cut, insertText=text, text_x=0.6, text_y=0.9,text_size=0.02, 
-            freezeXaxis=freezeX, LogY=logY, save=False)
+    #c = utils.plot_TH1s_with_legend(plots, cut, insertText=text, text_x=0.6, text_y=0.9,text_size=0.02, 
+            #freezeXaxis=freezeX, LogY=logY, save=False)
+    c = utils.plot_TH1s_with_legend(plots, cut, freezeXaxis=freezeX, LogY=logY, save=False)
     c.Range( 0., -10., 1., 10. )
     line = r.TLine(cutval, c.GetUymin(), cutval, c.GetUymax())
     line.SetLineColor(2)  # Set the line color (optional)
@@ -195,7 +216,7 @@ for cut, info in sel.items():
         line2.SetLineWidth(3)
         line2.Draw("same")
 
-    c.SaveAs('plots/%s.png'%(cut))
+    c.SaveAs('../plots/%s.png'%(cut))
     c.Close()
 
 #Make latex table

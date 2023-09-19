@@ -6,11 +6,11 @@ import baseConfig as base
 base.parser.add_argument("-w", "--tracking", type=str, dest="tracking",
                          help="Which tracking to use to make plots", metavar="tracking", default="KF")
 base.parser.add_argument("-f", "--makeFlatTuple", type=int, dest="makeFlatTuple",
-                         help="Make True to make vertex ana flat tuple", metavar="makeFlatTuple", default=0)
+                         help="Make True to make vertex ana flat tuple", metavar="makeFlatTuple", default=1)
 base.parser.add_argument("-r", "--isRadPDG", type=int, dest="isRadPDG",
                          help="Set radiative trident PDG ID", metavar="isRadPDG", default=625)
 base.parser.add_argument("-TS", "--trackstate", type=str, dest="trackstate",
-                         help="Specify Track State | 'AtECal' or 'AtTarget'. Default is origin (AtIP)", metavar="trackstate", default="")
+                         help="Specify Track State | 'AtECal' or 'AtTarget'. Default is origin (AtIP)", metavar="trackstate", default="AtTarget")
 base.parser.add_argument("-bpc", "--beamPosCorr", type=str, dest="beamPosCorr",
                          help="Load beam position corrections from json", metavar="beamPosCorr", default="")
 options = base.parser.parse_args()
@@ -19,7 +19,7 @@ options = base.parser.parse_args()
 infile = options.inFilename
 outfile = options.outFilename
 
-outfile = outfile.split(".root")[0]+"_"+options.tracking+".root"
+outfile = outfile.split(".root")[0]+".root"
 
 print('Input file: %s' % infile)
 print('Output file: %s' % outfile)
@@ -50,8 +50,8 @@ recoana_kf.parameters["vtxColl"] = "UnconstrainedV0Vertices_KF"
 recoana_kf.parameters["mcColl"] = "MCParticle"
 recoana_kf.parameters["hitColl"] = "SiClusters"
 recoana_kf.parameters["ecalColl"] = "RecoEcalClusters"
-recoana_kf.parameters["vtxSelectionjson"] = '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/preselection_cutflow/configs/vertexSelection_2016_simp_nocuts.json'
-recoana_kf.parameters["histoCfg"] = '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/preselection_cutflow/configs/vtxAnalysis_2016_simp_preselection.json'
+recoana_kf.parameters["vtxSelectionjson"] ='/sdf/group/hps/users/alspellm/projects/THESIS/analysis/tight_selection_studies/v0_projection/initial_look_20230914/configs/vertexSelection_2016_simp_preselection.json' 
+recoana_kf.parameters["histoCfg"] = os.environ['HPSTR_BASE']+"/analysis/plotconfigs/tracking/simps/vtxAnalysis_2016_simp_reach.json"
 recoana_kf.parameters["mcHistoCfg"] = os.environ['HPSTR_BASE']+'/analysis/plotconfigs/mc/basicMC.json'
 #####
 recoana_kf.parameters["beamE"] = base.beamE[str(options.year)]
@@ -61,12 +61,7 @@ recoana_kf.parameters["debug"] = 0
 recoana_kf.parameters["isRadPDG"] = options.isRadPDG
 recoana_kf.parameters["makeFlatTuple"] = options.makeFlatTuple
 #recoana_kf.parameters["beamPosCfg"] = options.beamPosCorr
-#recoana_kf.parameters["beamPosCfg"] = os.environ['HPSTR_BASE']+'/analysis/data/beamspot_positions_2016.json'
-#recoana_kf.parameters["eleTrackTimeBias"] = -1.39
-#recoana_kf.parameters["posTrackTimeBias"] = -1.61
-recoana_kf.parameters["eleTrackTimeBias"] = -2.2 #MC
-recoana_kf.parameters["posTrackTimeBias"] = -2.1 #MC
-
+recoana_kf.parameters["beamPosCfg"] = os.environ['HPSTR_BASE']+'/analysis/data/beamspot_positions_2016.json'
 
 CalTimeOffset = -999
 
@@ -82,30 +77,37 @@ else:
 
 recoana_kf.parameters["CalTimeOffset"] = CalTimeOffset
 #Region definitions
-RegionPath = '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/preselection_cutflow/selections/'
+RegionPath = os.environ['HPSTR_BASE']+"/analysis/selections/simps/"
 
-recoana_kf.parameters["regionDefinitions"] = [RegionPath+'posTrkTime_lt_selection.json',
-                                              RegionPath+'posTrkCluTimeDiff_lt_selection.json',
-                                              RegionPath+'posTrkChi2Ndf_lt_selection.json',
-                                              RegionPath+'posN2Dhits_gt_selection.json',
-                                              RegionPath+'posMom_gt_selection.json',
-                                              RegionPath+'Pair1_eq_selection.json',
-                                              RegionPath+'eleTrkTime_lt_selection.json',
-                                              RegionPath+'eleTrkCluTimeDiff_lt_selection.json',
-                                              RegionPath+'eleTrkChi2Ndf_lt_selection.json',
-                                              RegionPath+'eleposCluTimeDiff_lt_selection.json',
-                                              RegionPath+'eleN2Dhits_gt_selection.json',
-                                              RegionPath+'eleMom_lt_selection.json',
-                                              RegionPath+'eleMom_gt_selection.json',
-                                              RegionPath+'maxVtxMom_lt_selection.json',
-                                              RegionPath+'chi2unc_lt_selection.json']
+recoana_kf.parameters["regionDefinitions"] = [RegionPath+'Tight_2016_simp_reach_CR.json',
+                                              RegionPath+'Tight_2016_simp_reach_SR.json',
+                                              RegionPath+'Tight_loose.json',
+                                              RegionPath+'Tight_loose_L1L1.json']
 
+#MCParticleAna
+mcana.parameters["debug"] = 0
+mcana.parameters["anaName"] = "mcAna"
+mcana.parameters["partColl"] = "MCParticle"
+mcana.parameters["trkrHitColl"] = "TrackerHits"
+mcana.parameters["ecalHitColl"] = "EcalHits"
+mcana.parameters["histCfg"] = os.environ['HPSTR_BASE']+'/analysis/plotconfigs/mc/basicMC.json'
+
+#
+#    RegionPath+'ESumCR.json',
+#    RegionPath+'TightNoSharedL0.json',
+#    RegionPath+'TightNoShared.json',
 
 # Sequence which the processors will run.
 #p.sequence = [recoana_kf,recoana_gbl]
 if (options.tracking == "KF"):
     print("Run KalmanFullTracks analysis")
     p.sequence = [recoana_kf]  # ,mcana]
+elif (options.tracking == "GBL"):
+    print("Run GBL analysis")
+    p.sequence = [recoana_gbl]  # ,mcana]
+else:
+    print("ERROR::Need to specify which tracks KF or GBL")
+    exit(1)
 
 p.skip_events = options.skip_events
 p.max_events = options.nevents

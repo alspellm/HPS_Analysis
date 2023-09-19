@@ -5,8 +5,23 @@
 /analysis/reach_estimate_tenpct/**/logs/
 *.slcio
 *.evio
+*.evio.*
+*.pdf
+*.odp
+*.xlsx
+*.xls*
+*.xls
+**/sh/
+
+#Cleaning these directories. Add them later 9/14/23
 /ana/
 /data/
 /mc/
 /seedtracker/
 /simp_reach_estimates/
+
+#Ignore large files
+/analysis/bfield_studies/209acm2_5kg_corrected_unfolded_scaled_1.04545_v4.dat
+*.db
+*.mysql
+*.sql
