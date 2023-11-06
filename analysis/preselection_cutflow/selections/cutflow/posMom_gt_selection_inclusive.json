@@ -45,13 +45,13 @@
         "info": "p e^{-}<1.75GeV"
     },
     "eleMom_gt": {
-        "cut": 0.4,
+        "cut": 0.2,
         "id": 9,
-        "info": "p_e^{-}>0.4 [GeV]"
+        "info": "p_e^{-}>0.2 [GeV]"
     },
     "posMom_gt": {
-        "cut": 0.4,
+        "cut": 0.2,
         "id": 10,
-        "info": "p_e^{+}>0.4 [GeV]"
+        "info": "p_e^{+}>0.2 [GeV]"
     }
 }

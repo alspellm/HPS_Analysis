@@ -19,5 +19,6 @@ for cut,info in data.items():
         cut_id = cut_id + 1
     with open('selections/%s_selection.json'%(cut), "w") as outfile:
         json.dump(newdict, outfile, indent = 4)
+        print(newdict)
     
 

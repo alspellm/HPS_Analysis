@@ -1,7 +1,6 @@
 #/bin/env python
 import sys
-sys.path.append( '/sdf/group/hps/users/alspellm/projects/THESIS/ana/analysis_scripts/plot_utils')
-import my_plot_utils as utils
+import plot_utilities as utils
 import math
 import glob
 import numpy as np
@@ -233,7 +232,7 @@ for m_Vd in invMasses:
     infile_tritrig = '/sdf/group/hps/users/alspellm/projects/THESIS/mc/2016/tritrig_beam/pass4_2016_mc/rerecon_kf_v5_1/simps_2016_kf/final_hadd_tritrigv2-beamv6_2500kBunches_HPS-PhysicsRun2016-Pass2_v4_5_0_pairs1_976_KF_CR.root'
     infile_wab = '/sdf/group/hps/users/alspellm/projects/THESIS/mc/2016/wab_beam/pass4_2016_mc/rerecon_kf_v5_1/simps_2016_kf/final_hadd_wabv3-beamv6_2500kBunches_HPS-PhysicsRun2016-Pass2_v4_5_0_pairs1_KF_ana_CR.root'
     #dNdm = countDiffBackgroundMC(m_Ap, infile_tritrig, infile_wab,"vtxana_kf_vertexSelection_Tight_CR", mcScale['tritrig'], mcScale['wab'],
-    dNdm = countDiffBackgroundData(m_Ap, infile_data,"vtxana_kf_Tight_2016_simp_reach_CR",massRes(float(m_Vd)))
+    dNdm = 10.0*countDiffBackgroundData(m_Ap, infile_data,"vtxana_kf_Tight_2016_simp_reach_CR",massRes(float(m_Vd)))
     dNdms.append(dNdm)
 
     #Next get flat tuple from anaVtx and fill eff_vtx numerator

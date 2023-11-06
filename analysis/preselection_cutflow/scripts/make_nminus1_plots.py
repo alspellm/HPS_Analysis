@@ -3,7 +3,6 @@ import ROOT as r
 import numpy as np
 from array import array
 import sys
-sys.path.append( '/sdf/group/hps/users/alspellm/projects/THESIS/analysis/plot_utilities')
 import plot_utilities as utils
 import json
 from tabulate import tabulate

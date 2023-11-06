@@ -18,7 +18,8 @@ for filename in os.listdir(directory):
     else:
         continue
     print("Counting events in ", filename)
-    infile = r.TFile('%s'%(filename),"READ")
+    #infile = r.TFile('%s'%(filename),"READ")
+    infile = r.TFile('%s'%(f),"READ")
     event_h = infile.Get('event_h')
     count = event_h.GetEntries()
     print("Count is ", count)

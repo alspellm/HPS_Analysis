@@ -10,7 +10,7 @@ base.parser.add_argument("-f", "--makeFlatTuple", type=int, dest="makeFlatTuple"
 base.parser.add_argument("-r", "--isRadPDG", type=int, dest="isRadPDG",
                          help="Set radiative trident PDG ID", metavar="isRadPDG", default=625)
 base.parser.add_argument("-TS", "--trackstate", type=str, dest="trackstate",
-                         help="Specify Track State | 'AtECal' or 'AtTarget'. Default is origin (AtIP)", metavar="trackstate", default="AtTarget")
+                         help="Specify Track State | 'AtECal' or 'AtTarget'. Default is origin (AtIP)", metavar="trackstate", default="")
 base.parser.add_argument("-bpc", "--beamPosCorr", type=str, dest="beamPosCorr",
                          help="Load beam position corrections from json", metavar="beamPosCorr", default="")
 options = base.parser.parse_args()
@@ -61,7 +61,7 @@ recoana_kf.parameters["debug"] = 0
 recoana_kf.parameters["isRadPDG"] = options.isRadPDG
 recoana_kf.parameters["makeFlatTuple"] = options.makeFlatTuple
 #recoana_kf.parameters["beamPosCfg"] = options.beamPosCorr
-recoana_kf.parameters["beamPosCfg"] = os.environ['HPSTR_BASE']+'/analysis/data/beamspot_positions_2016.json'
+#recoana_kf.parameters["beamPosCfg"] = os.environ['HPSTR_BASE']+'/analysis/data/beamspot_positions_2016.json'
 
 CalTimeOffset = -999
 

@@ -104,7 +104,6 @@
 /sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007985.100_recon_4.2.root
 /sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007986.0_recon_4.2.root
 /sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007986.100_recon_4.2.root
-/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007987.0_recon_4.2.root
 /sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007987.100_recon_4.2.root
 /sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007988.0_recon_4.2.root
 /sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_007988.100_recon_4.2.root
@@ -142,7 +141,6 @@
 /sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008055.0_recon_4.2.root
 /sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008057.0_recon_4.2.root
 /sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008057.100_recon_4.2.root
-/sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008058.0_recon_4.2.root
 /sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008058.100_recon_4.2.root
 /sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008059.0_recon_4.2.root
 /sdf/group/hps/data/physrun2016/BLPass4b/rereco/hps_008059.100_recon_4.2.root

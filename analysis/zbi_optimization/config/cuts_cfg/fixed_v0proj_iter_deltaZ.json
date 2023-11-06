@@ -1,0 +1,13 @@
+{
+    "unc_vtx_proj_sig_lt": {
+        "cut" : 3.0,
+        "id" : 1, 
+        "info": "vertex target projection significance < "
+    },
+    "unc_vtx_deltaZ_lt": {
+        "cut" : 999999999.0,
+        "id" : 2, 
+        "info": "vertex deltaZ < "
+    }
+    
+}

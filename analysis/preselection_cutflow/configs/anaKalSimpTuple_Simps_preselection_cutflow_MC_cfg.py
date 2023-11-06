@@ -62,7 +62,7 @@ recoana_kf.parameters["makeFlatTuple"] = options.makeFlatTuple
 #recoana_kf.parameters["beamPosCfg"] = options.beamPosCorr
 #recoana_kf.parameters["beamPosCfg"] = os.environ['HPSTR_BASE']+'/analysis/data/beamspot_positions_2016.json'
 recoana_kf.parameters["eleTrackTimeBias"] = -2.2 #MC
-recoana_kf.parameters["posTrackTimeBias"] = -2.1 #MC
+recoana_kf.parameters["posTrackTimeBias"] = -2.2 #MC
 
 
 CalTimeOffset = -999

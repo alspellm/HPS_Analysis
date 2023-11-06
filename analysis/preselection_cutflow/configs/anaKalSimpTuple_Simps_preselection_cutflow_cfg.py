@@ -37,7 +37,6 @@ p.add_library("libprocessors")
 ###############################
 
 recoana_kf = HpstrConf.Processor('vtxana_kf', 'VertexAnaProcessor')
-recoana_gbl = HpstrConf.Processor('vtxana_gbl', 'VertexAnaProcessor')
 ###############################
 #   Processor Configuration   #
 ###############################
@@ -61,8 +60,8 @@ recoana_kf.parameters["isRadPDG"] = options.isRadPDG
 recoana_kf.parameters["makeFlatTuple"] = options.makeFlatTuple
 #recoana_kf.parameters["beamPosCfg"] = options.beamPosCorr
 #recoana_kf.parameters["beamPosCfg"] = os.environ['HPSTR_BASE']+'/analysis/data/beamspot_positions_2016.json'
-recoana_kf.parameters["eleTrackTimeBias"] = -1.39
-recoana_kf.parameters["posTrackTimeBias"] = -1.61
+recoana_kf.parameters["eleTrackTimeBias"] = -1.5
+recoana_kf.parameters["posTrackTimeBias"] = -1.5
 
 
 CalTimeOffset = -999

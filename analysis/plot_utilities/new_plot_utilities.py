@@ -7,6 +7,9 @@ import glob
 import os
 import sys
 from tabulate import tabulate
+import numpy as np
+import root_numpy as rnp
+import pandas as pd
 
 def addHisto1D(name, nbins, xmin, xmax, title='', xlabel='', ylabel=''):
     h = r.TH1F('%s'%(name),'%s;%s;%s'%(title, xlabel, ylabel),nbins, xmin, xmax)
@@ -65,6 +68,7 @@ def SetMyStyle(tsize=0.035, tzsize=0.035, font=42, setOptTitle=0, setOptStat=0, 
     myStyle.SetPaperSize(20, 26)
     myStyle.SetPadTopMargin(0.10)
     myStyle.SetPadRightMargin(0.05)
+    myStyle.SetPadRightMargin(0.10)
     myStyle.SetPadBottomMargin(0.10)
     myStyle.SetPadLeftMargin(0.10)
 
@@ -311,7 +315,7 @@ def read_1d_plots_from_root_file(file_path, root_dir="", keyword=""):
 
 def formatHisto(histogram, name=None, title=None, x_label=None, y_label=None,
         line_width=None, line_color=None, marker_style=None,
-        marker_size=None, marker_color=None, line_style=None):
+        marker_size=None, marker_color=None, line_style=None, xmin=None, xmax=None,ymin=None,ymax=None):
     if name is not None:
         histogram.SetName(name)
     if title is not None:
@@ -332,6 +336,11 @@ def formatHisto(histogram, name=None, title=None, x_label=None, y_label=None,
         histogram.SetMarkerColor(marker_color)
     if line_style is not None:
         histogram.SetLineStyle(line_style)
+    if xmin is not None and xmax is not None:
+        histogram.GetHistogram().GetXaxis().SetRangeUser(xmin, xmax)
+    if ymin is not None and ymax is not None:
+        histogram.GetHistogram().GetYaxis().SetRangeUser(ymin, ymax)
+    return histogram
 
 def getMarkersHPS():
     markers = [r.kFullCircle, r.kFullTriangleUp, r.kFullSquare, r.kOpenSquare, r.kOpenTriangleUp, r.kOpenCircle, r.kFullCircle, r.kOpenSquare, r.kFullSquare, r.kOpenTriangleUp, r.kOpenCircle, r.kFullCircle, r.kOpenSquare, r.kFullSquare, r.kOpenTriangleUp, r.kOpenCircle, r.kFullCircle, r.kOpenSquare, r.kFullSquare, r.kOpenTriangleUp, r.kOpenCircle, r.kFullCircle, r.kOpenSquare, r.kFullSquare, r.kOpenTriangleUp, r.kOpenCircle, r.kFullCircle, r.kOpenSquare, r.kFullSquare, r.kOpenTriangleUp]
@@ -381,14 +390,79 @@ def format_multiStats(n):
 
     return box_positions 
 
-def plot_TH1s_with_legend(histograms, canvas_name, drawOptions='hist', save_directory = '.',setStats=False,freezeXaxis=True,legx1=0.85,legy1=0.7,legx2=0.9,legy2=0.9, clear_legend=True, LogX=False, LogY=False,LogY_min=0.5, insertText=[],text_x=0.6, text_y=0.6, text_size = 0.03, line_spacing=0.03, save=False):
+def drawLatexTitleCenter(canvas, text, text_size):
+    title = r.TLatex()
+    #title.SetTextSize(text_size) 
+
+    # Calculate the position for centering the title at the top
+    canvas.Update()
+    title_x = -0.1 + canvas.GetLeftMargin() + (1 - canvas.GetRightMargin() - canvas.GetLeftMargin()) / 2.0
+    title_y = 1 - canvas.GetTopMargin() + 0.01 
+
+    # Draw the title
+    title.DrawLatexNDC(title_x, title_y, title_text)
+
+def makeTH2F(name, nbinsx, xmin, xmax, nbinsy, ymin, ymax,title='', xlabel='',ylabel=''):
+    histo = r.TH2F("%s"%(name),"%s"%(title),nbinsx,xmin,xmax,nbinsy,ymin,ymax)
+    histo.GetXaxis().SetTitle(xlabel)
+    histo.GetYaxis().SetTitle(ylabel)
+
+    return histo
+def makeTH1F(name, nbins, xmin, xmax, title='', xlabel='',ylabel='',lineColor=1, lineWidth=2):
+    histo = r.TH1F("%s"%(name),"%s"%(title), nbins, xmin, xmax)
+    histo.GetXaxis().SetTitle(xlabel)
+    histo.GetYaxis().SetTitle(ylabel)
+    histo.SetLineWidth(lineWidth)
+    histo.SetLineColor(lineColor)
+    return histo
+
+def makeTGraph(name, xvalues, yvalues, title=None,xlabel=None,ylabel=None,lineStyle=None,lineWidth=None,lineColor=None,
+        markerStyle=None, markerSize=None,markerColor=None):
+    gr = r.TGraph(len(xvalues), np.array(xvalues,dtype=float),np.array(yvalues,dtype=float))
+    gr.SetName(name)
+    if title is not None:
+        gr.SetTitle(title)
+    if xlabel is not None:
+        gr.GetXaxis().SetTitle(xlabel)
+    if ylabel is not None:
+        gr.GetYaxis().SetTitle(ylabel)
+    if lineStyle is not None:
+        gr.SetLineStyle(lineStyle)
+    if lineWidth is not None:
+        gr.SetLineWidth(lineWidth)
+    if lineColor is not None:
+        gr.SetLineColor(lineColor)
+    if markerStyle is not None:
+        gr.SetMarkerStyle(markerStyle)
+    if markerSize is not None:
+        gr.SetMarkerSize(markerSize)
+    if markerColor is not None:
+        gr.SetMarkerColor(markerColor)
+    
+    return gr
+
+def plotTH2F(histo, canvas_name, drawOptions='colz', LogX=False, LogY=False, xmin=None, xmax=None, ymin=None, ymax=None,
+                xres=2400,yres=1400):
     # Create a canvas
-    canvas = r.TCanvas(canvas_name, canvas_name, 2560, 1440)
+    canvas = r.TCanvas(canvas_name, canvas_name, xres, yres)
+    histo.Draw('%s'%(drawOptions))
+
+    if LogX:
+        canvas.SetLogx(1)
+    if LogY:
+        canvas.SetLogy(1)
+
+    return canvas
+
+def plotTH1s(histograms, canvas_name, drawOptions='HIST', LogX=False, LogY=False, 
+        freezeXaxis=False, xmin=None, xmax=None, ymin=None, 
+        ymax=None,xres=2400,yres=1400):
+    # Create a canvas
+    canvas = r.TCanvas(canvas_name, canvas_name, xres, yres)
 
     # Find the maximum x and y values among all histograms
     min_x = min(h.GetBinLowEdge(h.FindFirstBinAbove(0.0)) for h in histograms)
     max_x, max_y = max(h.GetBinLowEdge(h.FindLastBinAbove(0.0)) + h.GetBinWidth(0) for h in histograms), max(h.GetMaximum() for h in histograms)
-
     min_y = 1e10
     for h in histograms:
         local_miny = 1e10
@@ -400,41 +474,141 @@ def plot_TH1s_with_legend(histograms, canvas_name, drawOptions='hist', save_dire
             local_miny = min_y_u
         if local_miny < min_y:
             min_y = local_miny
+        if(freezeXaxis == False):
+            h.SetAxisRange(0.9*min_x, 1.1*max_x, "X")
+            h.GetXaxis().SetRangeUser(0.9*min_x,1.1*max_x)
+        h.SetAxisRange(min_y, 1.1 * max_y, "Y")
+        h.GetYaxis().SetRangeUser(min_y, 1.1 * max_y)
 
+    for i, h in enumerate(histograms):
+        if xmin is not None and xmax is not None:
+            h.GetXaxis().SetRangeUser(xmin, xmax)
+            min_x = xmin
+            max_x = xmax
+        if ymin is not None:
+            min_y = ymin
+        if ymax is not None:
+            max_y = ymax
+        h.GetYaxis().SetRangeUser(min_y, max_y)
+        if i < 1:
+            h.Draw('%s'%(drawOptions))
+        else:
+            h.Draw('%sSAME'%(drawOptions))
+        if len(h.GetListOfFunctions()) > 0:
+            func_name = h.GetListOfFunctions().At(0).GetName()
+            func = h.GetFunction("%s"%(func_name))
+            func.Draw("SAME")
+
+    if LogX:
+        canvas.SetLogx(1)
+    if LogY:
+        canvas.SetLogy(1)
+
+    return canvas
+
+def plotTGraphs(graphs, canvas_name, drawOptions='L', LogX=False, LogY=False, xmin=None, xmax=None, ymin=None, ymax=None,
+        xres=2400,yres=1400):
+    # Create a canvas
+    canvas = r.TCanvas(canvas_name, canvas_name, xres, yres)
+
+    for i, gr in enumerate(graphs):
+        if xmin is not None and xmax is not None:
+            gr.GetHistogram().GetXaxis().SetRangeUser(xmin, xmax)
+        if ymin is not None and ymax is not None:
+            gr.GetHistogram().GetYaxis().SetRangeUser(ymin, ymax)
+        if i < 1:
+            gr.Draw('A%s'%(drawOptions))
+        else:
+            gr.Draw('%sSAME'%(drawOptions))
+
+    if LogX:
+        canvas.SetLogx(1)
+    if LogY:
+        canvas.SetLogy(1)
+
+    return canvas
+
+def makeLegend(canvas,graphs,position=(0.60,0.8,0.80,0.9),clear_legend=True, text_size=0.025, entry_format=None):
+    legend = r.TLegend(*position)
+    # Set the legend to transparent (clear) if the option is specified
+    if clear_legend:
+        legend.SetFillStyle(0)
+        legend.SetFillColor(0)
+        legend.SetLineColor(0)
+        legend.SetBorderSize(0)
+    legend.SetTextSize(text_size)
+
+    for graph in graphs:
+        if entry_format is None:
+            legend.AddEntry(graph, graph.GetTitle())
+        else:
+            legend.AddEntry(graph, graph.GetTitle(),"%s"%(entry_format))
+    legend.Draw()
+    canvas.Update()
+    return legend
+
+def makeLatexBox(canvas, text=[], drawCenter=False,text_x=0.2, text_y=0.8, font=42, line_spacing=0.03, 
+        text_size=0.03, Hps=False):
+
+    latex = r.TLatex()
+    latex.SetTextFont(font)
+    latex.SetTextSize(text_size)
+    latex.SetTextAlign(12)
+    latex.SetTextColor(r.kBlack)
+
+    if drawCenter:
+        # Calculate the position for centering the title at the top
+        canvas.Update()
+        title_x = -0.2 + canvas.GetLeftMargin() + (1 - canvas.GetRightMargin() - canvas.GetLeftMargin()) / 2.0
+        title_y = 1 - canvas.GetTopMargin() + 0.05 
+
+        # Draw the title
+        latex.DrawLatexNDC(title_x, title_y, text[0])
+
+    if (Hps):
+        latex.DrawLatexNDC(text_x, text_y,'#bf{#it{HPS}} Internal')
+        text_y = text_y - line_spacing
+
+    if not drawCenter:
+        for line in text:
+            latex.DrawLatexNDC(text_x, text_y,line)
+            text_y = text_y - line_spacing
+    latex.Draw()
+    canvas.Update()
+    return latex
+
+def saveCanvas(canvas, outdir='.',name=None,legend=None,latex=None, file_ext='.png'):
+    if name is None:
+        file_name = outdir + "/" + canvas.GetName() + file_ext
+    else:
+        file_name = outdir + "/" + name + file_ext
+    if legend is not None:
+        legend.Draw()
+    if latex is not None:
+        latex.Draw()
+    canvas.Update()
+    canvas.SaveAs(file_name)
+    return canvas
+
+def plot_TGraphs_with_legend(graphs, canvas_name, drawOptions='', save_directory='.', legx1=0.85,legy1=0.7,legx2=0.8,legy2=0.9, leg_text_size = 0.03, clear_legend=True, LogX=False, LogY=False,LogY_min=0.5, insertText=[],text_x=0.6, text_y=0.6, text_size = 0.03, line_spacing=0.03, save=False):
+
+    # Create a canvas
+    canvas = r.TCanvas(canvas_name, canvas_name, 2560, 1440)
+    canvas.cd()
     # Create a legend corresponding to each histogram
     legend = buildLegend(legx1, legy1, legx2, legy2, clear_legend)
+    legend.SetTextSize(leg_text_size)
 
-    for i,histogram in enumerate(histograms):
-        if(freezeXaxis == False):
-            # Adjust the axis ranges for all histograms
-            histogram.SetAxisRange(0.9*min_x, 1.1*max_x, "X")
-            # Set the same maximum and minimum for both axes
-            histogram.GetXaxis().SetRangeUser(0.9*min_x,1.1*max_x)
-        histogram.SetAxisRange(min_y, 1.1 * max_y, "Y")
-        histogram.GetYaxis().SetRangeUser(min_y, 1.1 * max_y)
-        #if LogY and max_y > 0 and min_y <= 0:
-        #    histogram.SetAxisRange(0.5, 1.1 * max_y, "Y")
-        #    histogram.GetYaxis().SetRangeUser(LogY_min, 1.1 * max_y)
-
-        # Plot the histogram on the canvas
+    for i,gr in enumerate(graphs):
         if i < 1:
-            histogram.Draw('%s'%(drawOptions))
+            gr.Draw('A%s'%(drawOptions))
+            #gr.Draw('AL')
         else:
-            histogram.Draw("%sSAME"%(drawOptions))
-
-        if setStats == False:
-            histogram.SetStats(0)
-        else:
-            stat_box = histogram.GetListOfFunctions().FindObject("stats")
-            x, y = format_multiStats(len(histograms))
-            stat_box.SetX1NDC(x)
-            stat_box.SetY1NDC(y)
-            stat_box.SetX2NDC(x + box_width)
-            stat_box.SetY2NDC(y - box_height)
-            stat_box.SetTextSize(0.02)  # Adjust the text size of the statistics box
+            gr.Draw('%sSAME'%(drawOptions))
+            #gr.Draw('LSAME')
 
         #Add legend entries
-        legend.AddEntry(histogram, histogram.GetTitle(), "l")
+        legend.AddEntry(gr, gr.GetTitle(), "l")
 
     # Draw the legend on the canvas
     legend.Draw()
@@ -445,18 +619,17 @@ def plot_TH1s_with_legend(histograms, canvas_name, drawOptions='hist', save_dire
         canvas.SetLogy(1)
 
     # Save the canvas as a PNG file
-    histograms[0].SetTitle(canvas_name)
+    graphs[0].SetTitle(canvas_name)
 
     #Insert Text
-    InsertText(insertText, text_x=text_x, text_y=text_y,text_size=text_size)
+    text = InsertText(insertText, text_x=text_x, text_y=text_y,text_size=text_size)
     canvas.Update()
 
     if save:
         file_name = save_directory + "/" + canvas_name + ".png"
         canvas.SaveAs(file_name)
 
-    #return canvas, legend
-    return deepcopy(canvas)
+    return canvas, legend, text
 
 def plot_TH1_ratios_with_legend(histograms, numerators, denominators, ratioNames, ratioColors, canvas_name, save_directory,ratioMin=0.01, ratioMax=2.0, setStats=False,legx1=0.7,legy1=0.7,legx2=0.9,legy2=0.9, clear_legend=True, LogX=False, LogY=False, save=False):
     # Create a canvas
@@ -559,45 +732,6 @@ def plot_TH1_ratios_with_legend(histograms, numerators, denominators, ratioNames
     return deepcopy(canvas)
 
 
-def Make2DPlot(canvas_name, histo, title="", xtitle="", ytitle="", ztitle="", insertText=[], zmin="", zmax="", outdir='.', save=False):
-    oFext = ".png"
-    if not os.path.exists(outdir):
-        os.mkdir(outdir)
-
-    if title:
-        histo.SetTitle(title)
-
-    can = r.TCanvas('%s'%(canvas_name),'%s'%(canvas_name),2500,1440)
-    #can.SetTitle('%s'%(canvas_name))
-    #can.SetRightMargin(0.2)
-
-    #histolist[ih].GetZaxis().SetRangeUser(zmin,zmax)
-    if xtitle:
-        histo.GetXaxis().SetTitle(xtitle)
-    #histo.GetXaxis().SetTitleSize(
-    #        histo.GetXaxis().GetTitleSize()*0.7)
-    #histo.GetXaxis().SetLabelSize(
-    #        histo.GetXaxis().GetLabelSize()*0.75)
-    #histo.GetXaxis().SetTitleOffset(
-    #        histo.GetXaxis().GetTitleOffset()*0.8)
-
-    #histo.GetYaxis().SetTitleSize(
-    #        histo.GetYaxis().GetTitleSize()*0.7)
-    #histo.GetYaxis().SetLabelSize(
-    #        histo.GetYaxis().GetLabelSize()*0.75)
-    #histo.GetYaxis().SetTitleOffset(
-    #        histo.GetYaxis().GetTitleOffset()*1.7)
-    if ytitle:
-        histo.GetYaxis().SetTitle(ytitle)
-
-    histo.Draw("colz")
-
-    InsertText(insertText)
-
-    if save:
-        can.SaveAs(outdir+"/"+name+oFext)
-    return deepcopy(can)
-
 def Make1DPlot(canvas_name, histo, title="",xtitle="", ytitle="", ztitle="", drawOptions = "", insertText=[], outdir='.', LogY=False,save=True):
     oFext = ".png"
     if not os.path.exists(outdir):
@@ -679,5 +813,30 @@ def makeLatexTable(data = []):
     table = tabulate(data, headers="firstrow", tablefmt="latex")
     return table
 
+def readTupleToPDF(infile, tree, branches_to_read = [], chunk_size=2000000):
+    result_df = pd.DataFrame()
+
+    if len(branches_to_read) > 0:
+        total_entries = rnp.root2array(infile, tree, branches=branches_to_read).size
+    else:
+        total_entries = rnp.root2array(infile, tree).size
+
+    # Read the data in chunks
+    for start in range(0, total_entries, chunk_size):
+        end = min(start + chunk_size, total_entries)
+        if len(branches_to_read) > 0:
+            chunk = rnp.root2array(infile, tree, branches=branches_to_read, start=start, stop=end)
+        else:
+            chunk = rnp.root2array(infile, tree,start=start, stop=end)
+        
+        # Create a DataFrame from the current chunk
+        chunk_df = pd.DataFrame(chunk)
+        
+        # Process the chunk as needed (e.g., apply calculations or filters)
+        
+        # Append the chunk to the result DataFrame
+        result_df = result_df.append(chunk_df, ignore_index=True)
+
+    return result_df
 
 

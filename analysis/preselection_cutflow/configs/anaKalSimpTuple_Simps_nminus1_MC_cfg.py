@@ -65,7 +65,7 @@ recoana_kf.parameters["makeFlatTuple"] = options.makeFlatTuple
 #recoana_kf.parameters["eleTrackTimeBias"] = -1.39
 #recoana_kf.parameters["posTrackTimeBias"] = -1.61
 recoana_kf.parameters["eleTrackTimeBias"] = -2.2 #MC
-recoana_kf.parameters["posTrackTimeBias"] = -2.1 #MC
+recoana_kf.parameters["posTrackTimeBias"] = -2.2 #MC
 
 
 CalTimeOffset = -999

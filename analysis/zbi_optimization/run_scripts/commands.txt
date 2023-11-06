@@ -1,0 +1,6 @@
+#sbatch run/submit_slurm.sh -c config/simp_zbi_config.py -i config/cuts_dir/iter_deltaZ_v0proj.json -m 55 -o zbi_opt_deltaZ_v0proj_10250845.root -C "unc_vtx_deltaZ, unc_vtx_proj_sig" -b 0.5 -s 0
+
+source run/test_run.sh config/simp_zbi_config.py config/cuts_dir/iter_deltaZ_v0proj.json "unc_vtx_deltaZ unc_vtx_proj_sig" "" "" testout.root 55 0.5 0
+
+batch submit_slurm_array_zbi.sh ../config/working_simp_zbi_config.py ../config/cuts_dir/iter_deltaZ_v0proj.json "unc_vtx_deltaZ unc_vtx_proj_sig" "" "" zbi_opt_deltaZ_and_vtx_proj 0.5 1
+
