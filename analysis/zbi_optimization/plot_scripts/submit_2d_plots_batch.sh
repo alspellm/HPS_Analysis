@@ -64,7 +64,7 @@ for input_file in "${input_files[@]}"; do
 #SBATCH --job-name=${job_name}
 #SBATCH --output=${rundir}/logs/${job_name}.out
 #SBATCH --error=${rundir}/logs/${job_name}.err
-#SBATCH --partition=hps
+#SBATCH --partition=shared
 
 echo "Running on input file ${input_file}"
 source /sdf/home/a/alspellm/.bashrc

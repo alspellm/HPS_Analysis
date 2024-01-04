@@ -229,7 +229,7 @@ def read_1d_plots_from_root_file_dirs(file_path, root_dir_key="", keyword=""):
             if root_dir_key not in dir_obj.GetName():
                 continue
 
-            print("Navigating to directory ", dir_obj.GetName())
+            #print("Navigating to directory ", dir_obj.GetName())
             # Get the directory within the ROOT file
             root_dir = root_file.GetDirectory(dir_obj.GetName())
 
@@ -244,7 +244,7 @@ def read_1d_plots_from_root_file_dirs(file_path, root_dir_key="", keyword=""):
                     # Check if the object name contains the keyword (if provided)
                     if keyword and keyword not in obj.GetName():
                         continue
-                    print("Copying plot", obj.GetName())
+                    #print("Copying plot", obj.GetName())
                     # Create a deepcopy of the plot and append to the list
                     plots.append(copy.deepcopy(obj))
 
@@ -506,10 +506,25 @@ def plotTH1s(histograms, canvas_name, drawOptions='HIST', LogX=False, LogY=False
 
     return canvas
 
-def plotTGraphs(graphs, canvas_name, drawOptions='L', LogX=False, LogY=False, xmin=None, xmax=None, ymin=None, ymax=None,
+def plotTGraphs(graphs, canvas_name, drawOptions='LP', LogX=False, LogY=False, xmin=None, xmax=None, ymin=None, ymax=None,
         xres=2400,yres=1400):
     # Create a canvas
     canvas = r.TCanvas(canvas_name, canvas_name, xres, yres)
+
+    ymin = 9999.9
+    ymax = -9999.9
+    
+    for i, gr in enumerate(graphs):
+        num_points = gr.GetN()
+        y_values = np.array([gr.GetY()[i] for i in range(num_points)])
+        local_ymax = np.max(y_values)
+        if local_ymax > ymax:
+            ymax = local_ymax
+        local_ymin = np.min(y_values)
+        if local_ymin < ymin:
+            ymin = local_ymin
+    
+    gr.GetHistogram().GetYaxis().SetRangeUser(ymin,ymax)
 
     for i, gr in enumerate(graphs):
         if xmin is not None and xmax is not None:
@@ -521,6 +536,11 @@ def plotTGraphs(graphs, canvas_name, drawOptions='L', LogX=False, LogY=False, xm
         else:
             gr.Draw('%sSAME'%(drawOptions))
 
+        if len(gr.GetListOfFunctions()) > 0:
+            func_name = gr.GetListOfFunctions().At(0).GetName()
+            func = gr.GetFunction("%s"%(func_name))
+            func.Draw("%sSAME"%(drawOptions))
+
     if LogX:
         canvas.SetLogx(1)
     if LogY:
@@ -528,7 +548,7 @@ def plotTGraphs(graphs, canvas_name, drawOptions='L', LogX=False, LogY=False, xm
 
     return canvas
 
-def makeLegend(canvas,graphs,position=(0.60,0.8,0.80,0.9),clear_legend=True, text_size=0.025, entry_format=None):
+def makeLegend(canvas,graphs,position=(0.60,0.4,0.80,0.9),clear_legend=True, text_size=0.025, entry_format=None):
     legend = r.TLegend(*position)
     # Set the legend to transparent (clear) if the option is specified
     if clear_legend:

@@ -3,8 +3,8 @@
 #SBATCH --time=4:00:00
 #SBATCH --mem=8000M
 #SBATCH --array=1-33
-#SBATCH --partition=hps
-#SBATCH --job-name=zbi
+#SBATCH --partition=shared
+#SBATCH --job-name=z0flat
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null
 

@@ -1,7 +1,7 @@
 #!/usr/bin/scl enable devtoolset-8 -- /bin/bash
 #SBATCH --ntasks=1
 #SBATCH --time=8:00:00
-#SBATCH --mem=10000M
+#SBATCH --mem=6000M
 #SBATCH --array=1-30
 #SBATCH --partition=hps
 #SBATCH --job-name=zbi
@@ -54,7 +54,9 @@ mkdir -p ${OUTDIR}
 mkdir -p ${OUTDIR}/logs
 cd $OUTDIR
 
-zalphaSlope=$(python -c "print 0.001+(0.001*$JOB_ID)")
+#zalphaSlope=$(python -c "print 0.001+(0.001*$JOB_ID)")
+#zalphaSlope=$(python -c "print 0.02+(0.01*$JOB_ID)")
+zalphaSlope=$(python -c "print 0.01+(0.01*$JOB_ID)")
 newVariableParamsArray=(${zalphaSlope} ${zalphaSlope})
 newVariablesArray=("unc_vtx_ele_zalpha" "unc_vtx_pos_zalpha")
 outputfile="zalpha_slope_${zalphaSlope}_mass_${mass}.root"
