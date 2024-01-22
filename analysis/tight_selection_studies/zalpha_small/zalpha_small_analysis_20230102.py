@@ -109,6 +109,7 @@ def defineHistos1d(category, color='blue'):
 def defineHistos2d(category):
     histos = {}
     histos["recon_z_vs_track_z0"] = mplutils.defHist2d(f'recon_z_vs_track_z0_{category}', 160,-20,60,500,-4,4, xlabel='recon z [mm]',ylabel='track z0 [mm]')
+    histos["recon_z_vs_inv_mass"] = mplutils.defHist2d(f'recon_z_vs_inv_mass_{category}', 19,40,135,160,-60,500, xlabel='VD Inv Mass [GeV]',ylabel='recon z [mm]')
     return histos
 
 def fillVarHistos1d(histos_dict, array, reset=False):
@@ -125,6 +126,10 @@ def fillHistos2d(histos_dict, array, reset=False):
     #track z0
     histos_dict["recon_z_vs_track_z0"].fill(array["unc_vtx_z"],array["unc_vtx_ele_track_z0"])
     histos_dict["recon_z_vs_track_z0"].fill(array["unc_vtx_z"],array["unc_vtx_pos_track_z0"])
+
+    #inv mass 
+    histos_dict["recon_z_vs_inv_mass"].fill(array["unc_vtx_mass"], array["unc_vtx_z"])
+
     
 def saveHistsToROOT(outfile, histos_dict, subdir=''):
     for key, histo in histos_dict.items():
@@ -196,15 +201,18 @@ ratio_mpi_to_fpi = 4.0*3.14159
 mass_lepton = 0.511
 
 #Configure output files
-outdir = 'run_20230103'
+#outdir = 'run_20230103'
 outfilename = 'zalpha_slope_study'
-if not os.path.exists(outdir):
-    os.mkdir(outdir)
+#if not os.path.exists(outdir):
+#    os.mkdir(outdir)
+outdir = '.'
     
 ## **Configure High-Z Cuts** ##
 deltaZ_par0 = 18.5972
 deltaZ_par1 = 0.159555
 v0projSig_cutvalue = 2.0
+
+savePNGs = False
 
 #Loop over mass range
 for mass in range(args.mass, args.mass+1):
@@ -226,9 +234,6 @@ for mass in range(args.mass, args.mass+1):
     radFrac = radiativeFraction(mass_ap) 
     radAcc = radiativeAcceptance(mass_ap) 
     
-    # Instantiating pdf document
-    #PDF = PdfPages(f'{outdir}/{pdf_name}.pdf')
-    
     #init outfile
     outfile = uproot.recreate(f'./{outdir}/mass_{mass}_{outfilename}.root')
     
@@ -241,8 +246,8 @@ for mass in range(args.mass, args.mass+1):
     bkg_subdirCR = 'vtxana_Tight_2016_simp_reach_CR'
     bkg_treenameCR = 'vtxana_Tight_2016_simp_reach_CR_tree'
     bkg_branchesCR = ["unc_vtx_mass"]
-    bkg_sf_SR = 10.0
-    bkg_sf_CR = 10.0
+    bkg_sf_SR = 1.0
+    bkg_sf_CR = 1.0
     print("Finished Reading Data")
 
     #Signal
@@ -251,7 +256,7 @@ for mass in range(args.mass, args.mass+1):
     signal_subdir = 'vtxana_radMatchTight_2016_simp_reach_SR'
     signal_treename = 'vtxana_radMatchTight_2016_simp_reach_SR_tree'
     signal_filename = '/sdf/group/hps/users/alspellm/projects/THESIS/mc/2016/simps/signal_beam/20230713_slic/20230713_readout/hps-java_v5pt2pt1/pass4/recon_20231009/ana_20231020/hadd_simp_signal_%s_MeV_beam_ana.root'%(int(mass))
-    signal_sf = 1.0
+    signal_sf = 5.0
     print("Finished Reading Signal MC")
     
     #Truth Signal
@@ -314,15 +319,16 @@ for mass in range(args.mass, args.mass+1):
     saveHistsToROOT(outfile, signal_histos1d, subdir='initial')
     saveHistsToROOT(outfile, signal_histos2d, subdir='initial')
     
-    vmin = 1
-    vmax = 12000
-    for key, histo in signal_histos2d.items():
-        fig, ax = mplutils.plotHist2d(histo, text='initial', textpos=[0.7,0.8], text_ax=True, logZ=True)
-        plt.savefig(f'{plots_dir}/{histo.metadata.get("title")}_initial.png')
-        
-    for key, histo in bkg_histos2d.items():
-        fig = mplutils.plotHist2d(histo, text='initial', textpos=[0.7,0.8], text_ax=True, vmin=vmin, vmax=vmax, logZ=True)
-        plt.savefig(f'{plots_dir}/{histo.metadata.get("title")}_initial.png')
+    if(savePNGs):
+        vmin = 1
+        vmax = 12000
+        for key, histo in signal_histos2d.items():
+            fig, ax = mplutils.plotHist2d(histo, text='initial', textpos=[0.7,0.8], text_ax=True, logZ=True)
+            plt.savefig(f'{plots_dir}/{histo.metadata.get("title")}_initial.png')
+            
+        for key, histo in bkg_histos2d.items():
+            fig = mplutils.plotHist2d(histo, text='initial', textpos=[0.7,0.8], text_ax=True, vmin=vmin, vmax=vmax, logZ=True)
+            plt.savefig(f'{plots_dir}/{histo.metadata.get("title")}_initial.png')
         
     plt.close('all')
     
@@ -333,16 +339,13 @@ for mass in range(args.mass, args.mass+1):
     signal_arrays = v0ProjSigCut(signal_arrays, v0projSig_cutvalue)
     signal_arrays = deltaZCut(signal_arrays, deltaZ_par0, deltaZ_par1, mass) 
     
-    n_slopes = 21
+    n_slopes = 50
     figures = {}
     #for n,zalpha_slope in enumerate(range(1,n_slopes+1)):
     #for n, zalpha_slope in enumerate([0.0001,0.0002, 0.0004, 0.0006,0.0008,0.001,0.0015,0.002,0.004,0.020,0.03,0.04]):
     #for n, zalpha_slope in enumerate([0.0001, 0.005, 0.01]):
-    for n in range(0,n_slopes):
-        if n == 0:
-            zalpha_slope = 0.0001
-        else:
-            zalpha_slope = n/500.0
+    for n in range(1,n_slopes):
+        zalpha_slope = n/1000.0
         plt.close('all')
         zalpha_subdir = f'slope_{zalpha_slope}'
         zalpha_plots_dir = f'{plots_dir}/{zalpha_subdir}'
@@ -388,15 +391,16 @@ for mass in range(args.mass, args.mass+1):
         saveHistsToROOT(outfile, signal_histos1d, mod)
         saveHistsToROOT(outfile, signal_histos2d, mod)
 
-        for key, histo in signal_histos2d.items():
-            fig, ax = mplutils.plotHist2d(histo, text=f'iter-1 \n slope {zalpha_slope}', textpos=[0.7,0.8], text_ax=True, vmin=1, vmax=20000, logZ=True)
-            #fig = plotHisto2D(histo, text='iter-1', text_x=0.8, text_y=0.8, text_ax=True)
-            plt.savefig(f'{zalpha_plots_dir}/{histo.metadata.get("title")}_iter-1.png')
+        if savePNGs:
+            for key, histo in signal_histos2d.items():
+                fig, ax = mplutils.plotHist2d(histo, text=f'iter-1 \n slope {zalpha_slope}', textpos=[0.7,0.8], text_ax=True, vmin=1, vmax=20000, logZ=True)
+                #fig = plotHisto2D(histo, text='iter-1', text_x=0.8, text_y=0.8, text_ax=True)
+                plt.savefig(f'{zalpha_plots_dir}/{histo.metadata.get("title")}_iter-1.png')
 
-        for key, histo in bkg_histos2d.items():
-            fig, ax = mplutils.plotHist2d(histo, text=f'iter-1 \n slope {zalpha_slope}', textpos=[0.7,0.8], text_ax=True, vmin=1, vmax=20000, logZ=True)
-            #fig = plotHisto2D(histo, text='iter-1', text_x=0.8, text_y=0.8, text_ax=True)
-            plt.savefig(f'{zalpha_plots_dir}/{histo.metadata.get("title")}_iter-1.png')
+            for key, histo in bkg_histos2d.items():
+                fig, ax = mplutils.plotHist2d(histo, text=f'iter-1 \n slope {zalpha_slope}', textpos=[0.7,0.8], text_ax=True, vmin=1, vmax=20000, logZ=True)
+                #fig = plotHisto2D(histo, text='iter-1', text_x=0.8, text_y=0.8, text_ax=True)
+                plt.savefig(f'{zalpha_plots_dir}/{histo.metadata.get("title")}_iter-1.png')
 
         plt.close('all')
 
@@ -407,7 +411,7 @@ for mass in range(args.mass, args.mass+1):
         cut_values = []
         effs = []
 
-        max_iter = 95
+        max_iter = 98
         step_size = 0.01
         initial_histo = outfile[f'{zalpha_subdir}/pre_iter/unc_vtx_zalpha_max_signal'].to_hist()
         for iteration in range(0,max_iter):
@@ -442,21 +446,24 @@ for mass in range(args.mass, args.mass+1):
             saveHistsToROOT(outfile, signal_histos1d, mod)
             saveHistsToROOT(outfile, signal_histos2d, mod)
 
-            for key, histo in signal_histos2d.items():
-                fig, ax = mplutils.plotHist2d(histo, text=f'iteration_{iteration} \n slope {zalpha_slope}', textpos=[0.7,0.8], text_ax=True, vmin=1, vmax = 20000,  logZ=True)
-                #fig = plotHisto2D(histo, text=f'iteration_{iteration}', text_x=0.8, text_y=0.8, text_ax=True)
-                plt.savefig(f'{zalpha_plots_dir}/{histo.metadata.get("title")}_iter{iteration}.png')
+            if savePNGs:
+                for key, histo in signal_histos2d.items():
+                    fig, ax = mplutils.plotHist2d(histo, text=f'iteration_{iteration} \n slope {zalpha_slope}', textpos=[0.7,0.8], text_ax=True, vmin=1, vmax = 20000,  logZ=True)
+                    #fig = plotHisto2D(histo, text=f'iteration_{iteration}', text_x=0.8, text_y=0.8, text_ax=True)
+                    plt.savefig(f'{zalpha_plots_dir}/{histo.metadata.get("title")}_iter{iteration}.png')
 
-            for key, histo in bkg_histos2d.items():
-                fig, ax = mplutils.plotHist2d(histo, text=f'iteration_{iteration} \n slope {zalpha_slope}', textpos=[0.7,0.8], text_ax=True, vmin=1, vmax=20000, logZ=True)
-                #fig = plotHisto2D(histo, text=f'iteration_{iteration}', text_x=0.8, text_y=0.8, text_ax=True)
-                plt.savefig(f'{zalpha_plots_dir}/{histo.metadata.get("title")}_iter{iteration}.png')
+                for key, histo in bkg_histos2d.items():
+                    fig, ax = mplutils.plotHist2d(histo, text=f'iteration_{iteration} \n slope {zalpha_slope}', textpos=[0.7,0.8], text_ax=True, vmin=1, vmax=20000, logZ=True)
+                    #fig = plotHisto2D(histo, text=f'iteration_{iteration}', text_x=0.8, text_y=0.8, text_ax=True)
+                    plt.savefig(f'{zalpha_plots_dir}/{histo.metadata.get("title")}_iter{iteration}.png')
 
             plt.close('all')
 
             #Count remaining background beyond zposition
             target_pos = -4.3 #mm
-            nbkg = bkg_sf_SR*bkg_histos1d["unc_vtx_z"][loc(target_pos):hist.overflow:sum] + 0.5 #add half background event to keep nbkg > 0 for calculation
+            nbkg = bkg_sf_SR*bkg_histos1d["unc_vtx_z"][loc(target_pos):hist.overflow:sum]
+            if nbkg == 0: #if nbkg is 0, add 0.5 bkg events
+                nbkg = 0.5 
             nbkgs.append(nbkg)
             #print("Nbkg:",nbkg)
 

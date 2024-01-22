@@ -1,12 +1,10 @@
 #!/bin/bash
-#SBATCH --job-name=zalpha  # Job name
-
-#SBATCH --job-name=array_job
+#SBATCH --job-name=wide
 #SBATCH --output=array_job.%A.%a.out
 #SBATCH --error=array_job.%A.%a.err
 #SBATCH --array=1-23
 #SBATCH --partition=hps  # Specify the partition (queue)
-#SBATCH --time=5:00:00            # Maximum runtime (1 hour)
+#SBATCH --time=8:00:00            # Maximum runtime (1 hour)
 
 # Check if the number of command-line arguments is correct
 if [ "$#" -ne 2 ]; then
@@ -31,5 +29,5 @@ echo "Running script $python_script"
 
 # Run your Python script
 mass=$((35 + $SLURM_ARRAY_TASK_ID * 5))
-python3 -u ${python_script} --mass $mass --logeps2 -5.5 > run_log_mass_${mass}.txt
+python3 -u ${python_script} --mass $mass --logeps2 -6.0 > run_log_mass_${mass}.txt
 
