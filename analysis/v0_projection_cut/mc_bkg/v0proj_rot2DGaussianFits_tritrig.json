@@ -1,0 +1,10 @@
+{
+    "7984": {
+        "target_position": -4.3,
+        "rotated_mean_x": -0.23116444616317625,
+        "rotated_mean_y": -0.05156317101828531,
+        "rotated_sigma_x": 0.20129250679485877,
+        "rotated_sigma_y": 0.08163851333309263,
+        "rotation_angle_mrad": -0.12071591926012983
+    }
+}
